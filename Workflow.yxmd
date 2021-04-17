@@ -217,7 +217,7 @@ Name - Ascending</DefaultAnnotationText>
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\falen\AppData\Local\Temp\Engine_20208_f97ad5ddc5e84212a154fc85fc0d57f9_\Engine_10228_0fbbf16a010449768e5c16124dd97c82_.yxdb</TempFile>
+          <TempFile>C:\Users\falen\AppData\Local\Temp\Engine_26452_b9c5a3feefbf4409b31ac6965d9c4adc_\Engine_10228_6d55a7d519b74cd7ac53b59fc17bd6fc_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -417,6 +417,25 @@ Query=`ProductPrices`</DefaultAnnotationText>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
     </Node>
+    <Node ToolID="27">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="654" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="[Qty]*[Price]" field="Total $" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[Total $ = [Qty]*[Price]
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
     <Node ToolID="24">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
         <Position x="486" y="162" />
@@ -481,6 +500,10 @@ Query=`ProductPrices`</DefaultAnnotationText>
     <Connection name="#1">
       <Origin ToolID="23" Connection="Join" />
       <Destination ToolID="24" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="25" Connection="Output" />
+      <Destination ToolID="27" Connection="Input" />
     </Connection>
     <Connection>
       <Origin ToolID="24" Connection="Output" />
