@@ -217,7 +217,7 @@ Name - Ascending</DefaultAnnotationText>
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\falen\AppData\Local\Temp\Engine_13512_6c437f326b3346d283354d87e5dbf1b8_\Engine_10228_e85b62559d6f496c93d23825e7e8c5a9_.yxdb</TempFile>
+          <TempFile>C:\Users\falen\AppData\Local\Temp\Engine_22788_02de0057c1cb45649ec852f70b809945_\Engine_10228_8177e8e50fba4d52ad2bab0423df6e9e_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -241,7 +241,7 @@ Name - Ascending</DefaultAnnotationText>
     </Node>
     <Node ToolID="18">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-        <Position x="294" y="246" />
+        <Position x="42" y="246" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -285,11 +285,11 @@ Query=`ProductPrices`</DefaultAnnotationText>
     </Node>
     <Node ToolID="19">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="378" y="306" />
+        <Position x="138" y="306" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\falen\AppData\Local\Temp\Engine_13512_6c437f326b3346d283354d87e5dbf1b8_\Engine_10228_4965d3987dc94aada3bfe948ecf31f46_.yxdb</TempFile>
+          <TempFile>C:\Users\falen\AppData\Local\Temp\Engine_22788_02de0057c1cb45649ec852f70b809945_\Engine_10228_1c861b93d613435d954aad7a5abf580d_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -353,7 +353,7 @@ Query=`ProductPrices`</DefaultAnnotationText>
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\falen\AppData\Local\Temp\Engine_13512_6c437f326b3346d283354d87e5dbf1b8_\Engine_10228_058226d2771f4f21ac14a72da9832e12_.yxdb</TempFile>
+          <TempFile>C:\Users\falen\AppData\Local\Temp\Engine_22788_02de0057c1cb45649ec852f70b809945_\Engine_10228_f77d2fc195ba4837a68eb0a252da5a0f_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
