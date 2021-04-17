@@ -1,0 +1,451 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2021.1">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="42" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`WeeklySales`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>capstone_data_complete (1).xlsx
+Query=`WeeklySales`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Index" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`WeeklySales`" type="Double" />
+            <Field name="ITEM_CODE" size="255" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`WeeklySales`" type="V_String" />
+            <Field name="EMP_ID" size="255" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`WeeklySales`" type="V_String" />
+            <Field name="Year" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`WeeklySales`" type="Double" />
+            <Field name="W0" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`WeeklySales`" type="Double" />
+            <Field name="W1" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`WeeklySales`" type="Double" />
+            <Field name="W2" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`WeeklySales`" type="Double" />
+            <Field name="W3" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`WeeklySales`" type="Double" />
+            <Field name="W4" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`WeeklySales`" type="Double" />
+            <Field name="W5" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`WeeklySales`" type="Double" />
+            <Field name="W6" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`WeeklySales`" type="Double" />
+            <Field name="W7" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`WeeklySales`" type="Double" />
+            <Field name="W8" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`WeeklySales`" type="Double" />
+            <Field name="W9" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`WeeklySales`" type="Double" />
+            <Field name="W10" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`WeeklySales`" type="Double" />
+            <Field name="W11" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`WeeklySales`" type="Double" />
+            <Field name="W12" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`WeeklySales`" type="Double" />
+            <Field name="W13" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`WeeklySales`" type="Double" />
+            <Field name="W14" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`WeeklySales`" type="Double" />
+            <Field name="W15" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`WeeklySales`" type="Double" />
+            <Field name="W16" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`WeeklySales`" type="Double" />
+            <Field name="W17" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`WeeklySales`" type="Double" />
+            <Field name="W18" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`WeeklySales`" type="Double" />
+            <Field name="W19" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`WeeklySales`" type="Double" />
+            <Field name="W20" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`WeeklySales`" type="Double" />
+            <Field name="W21" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`WeeklySales`" type="Double" />
+            <Field name="W22" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`WeeklySales`" type="Double" />
+            <Field name="W23" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`WeeklySales`" type="Double" />
+            <Field name="W24" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`WeeklySales`" type="Double" />
+            <Field name="W25" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`WeeklySales`" type="Double" />
+            <Field name="W26" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`WeeklySales`" type="Double" />
+            <Field name="W27" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`WeeklySales`" type="Double" />
+            <Field name="W28" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`WeeklySales`" type="Double" />
+            <Field name="W29" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`WeeklySales`" type="Double" />
+            <Field name="W30" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`WeeklySales`" type="Double" />
+            <Field name="W31" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`WeeklySales`" type="Double" />
+            <Field name="W32" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`WeeklySales`" type="Double" />
+            <Field name="W33" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`WeeklySales`" type="Double" />
+            <Field name="W34" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`WeeklySales`" type="Double" />
+            <Field name="W35" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`WeeklySales`" type="Double" />
+            <Field name="W36" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`WeeklySales`" type="Double" />
+            <Field name="W37" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`WeeklySales`" type="Double" />
+            <Field name="W38" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`WeeklySales`" type="Double" />
+            <Field name="W39" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`WeeklySales`" type="Double" />
+            <Field name="W40" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`WeeklySales`" type="Double" />
+            <Field name="W41" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`WeeklySales`" type="Double" />
+            <Field name="W42" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`WeeklySales`" type="Double" />
+            <Field name="W43" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`WeeklySales`" type="Double" />
+            <Field name="W44" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`WeeklySales`" type="Double" />
+            <Field name="W45" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`WeeklySales`" type="Double" />
+            <Field name="W46" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`WeeklySales`" type="Double" />
+            <Field name="W47" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`WeeklySales`" type="Double" />
+            <Field name="W48" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`WeeklySales`" type="Double" />
+            <Field name="W49" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`WeeklySales`" type="Double" />
+            <Field name="W50" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`WeeklySales`" type="Double" />
+            <Field name="W51" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`WeeklySales`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Transpose.Transpose">
+        <Position x="126" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ErrorWarn>Warn</ErrorWarn>
+          <KeyFields>
+            <Field field="ITEM_CODE" />
+            <Field field="EMP_ID" />
+            <Field field="Year" />
+          </KeyFields>
+          <DataFields>
+            <Field field="Index" selected="False" />
+            <Field field="ITEM_CODE" selected="False" />
+            <Field field="EMP_ID" selected="False" />
+            <Field field="Year" selected="False" />
+            <Field field="W0" selected="True" />
+            <Field field="W1" selected="True" />
+            <Field field="W2" selected="True" />
+            <Field field="W3" selected="True" />
+            <Field field="W4" selected="True" />
+            <Field field="W5" selected="True" />
+            <Field field="W6" selected="True" />
+            <Field field="W7" selected="True" />
+            <Field field="W8" selected="True" />
+            <Field field="W9" selected="True" />
+            <Field field="W10" selected="True" />
+            <Field field="W11" selected="True" />
+            <Field field="W12" selected="True" />
+            <Field field="W13" selected="True" />
+            <Field field="W14" selected="True" />
+            <Field field="W15" selected="True" />
+            <Field field="W16" selected="True" />
+            <Field field="W17" selected="True" />
+            <Field field="W18" selected="True" />
+            <Field field="W19" selected="True" />
+            <Field field="W20" selected="True" />
+            <Field field="W21" selected="True" />
+            <Field field="W22" selected="True" />
+            <Field field="W23" selected="True" />
+            <Field field="W24" selected="True" />
+            <Field field="W25" selected="True" />
+            <Field field="W26" selected="True" />
+            <Field field="W27" selected="True" />
+            <Field field="W28" selected="True" />
+            <Field field="W29" selected="True" />
+            <Field field="W30" selected="True" />
+            <Field field="W31" selected="True" />
+            <Field field="W32" selected="True" />
+            <Field field="W33" selected="True" />
+            <Field field="W34" selected="True" />
+            <Field field="W35" selected="True" />
+            <Field field="W36" selected="True" />
+            <Field field="W37" selected="True" />
+            <Field field="W38" selected="True" />
+            <Field field="W39" selected="True" />
+            <Field field="W40" selected="True" />
+            <Field field="W41" selected="True" />
+            <Field field="W42" selected="True" />
+            <Field field="W43" selected="True" />
+            <Field field="W44" selected="True" />
+            <Field field="W45" selected="True" />
+            <Field field="W46" selected="True" />
+            <Field field="W47" selected="True" />
+            <Field field="W48" selected="True" />
+            <Field field="W49" selected="True" />
+            <Field field="W50" selected="True" />
+            <Field field="W51" selected="True" />
+            <Field field="*Unknown" selected="False" />
+          </DataFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTranspose" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="210" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="0">
+            <Field field="Year" order="Ascending" />
+            <Field field="Name" order="Ascending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Year - Ascending
+Name - Ascending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="294" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="ITEM_CODE" selected="True" rename="Item Code" />
+            <SelectField field="Year" selected="True" rename="Sales Year" />
+            <SelectField field="Name" selected="True" rename="W#" />
+            <SelectField field="EMP_ID" selected="True" rename="Emp ID" />
+            <SelectField field="Value" selected="True" rename="Qty" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="378" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\falen\AppData\Local\Temp\Engine_22788_02de0057c1cb45649ec852f70b809945_\Engine_10228_8177e8e50fba4d52ad2bab0423df6e9e_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="42" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`ProductPrices`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>capstone_data_complete (1).xlsx
+Query=`ProductPrices`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="PROD_CODE" size="255" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`ProductPrices`" type="V_String" />
+            <Field name="PROD_NAME" size="255" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`ProductPrices`" type="V_String" />
+            <Field name="URL" size="255" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`ProductPrices`" type="V_String" />
+            <Field name="link" size="255" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`ProductPrices`" type="V_String" />
+            <Field name="Manufacturer" size="255" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`ProductPrices`" type="V_String" />
+            <Field name="Extended Service Plan" size="255" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`ProductPrices`" type="V_String" />
+            <Field name="Warranty Price" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`ProductPrices`" type="Double" />
+            <Field name="2019Q1" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`ProductPrices`" type="Double" />
+            <Field name="2019Q2" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`ProductPrices`" type="Double" />
+            <Field name="2019Q3" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`ProductPrices`" type="Double" />
+            <Field name="2019Q4" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`ProductPrices`" type="Double" />
+            <Field name="2020Q1" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`ProductPrices`" type="Double" />
+            <Field name="2020Q2" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`ProductPrices`" type="Double" />
+            <Field name="2020Q3" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`ProductPrices`" type="Double" />
+            <Field name="2020Q4" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`ProductPrices`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="138" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\falen\AppData\Local\Temp\Engine_22788_02de0057c1cb45649ec852f70b809945_\Engine_10228_1c861b93d613435d954aad7a5abf580d_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="378" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Item Code" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="PROD_CODE" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_Item Code" selected="True" input="Left_" />
+                <SelectField field="Left_Sales Year" selected="True" input="Left_" />
+                <SelectField field="Left_W#" selected="True" input="Left_" />
+                <SelectField field="Left_Emp ID" selected="True" input="Left_" />
+                <SelectField field="Left_Qty" selected="True" input="Left_" />
+                <SelectField field="Right_2020Q4" selected="True" input="Right_" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="462" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\falen\AppData\Local\Temp\Engine_22788_02de0057c1cb45649ec852f70b809945_\Engine_10228_f77d2fc195ba4837a68eb0a252da5a0f_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="20" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="Output" />
+      <Destination ToolID="20" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="Output" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="Join" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="False" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Workflow</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
