@@ -213,11 +213,11 @@ Name - Ascending</DefaultAnnotationText>
     </Node>
     <Node ToolID="17">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="378" y="162" />
+        <Position x="390" y="162" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\falen\AppData\Local\Temp\Engine_13512_6c437f326b3346d283354d87e5dbf1b8_\Engine_10228_e85b62559d6f496c93d23825e7e8c5a9_.yxdb</TempFile>
+          <TempFile>C:\Users\falen\AppData\Local\Temp\Engine_20208_f97ad5ddc5e84212a154fc85fc0d57f9_\Engine_10228_0fbbf16a010449768e5c16124dd97c82_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -239,9 +239,45 @@ Name - Ascending</DefaultAnnotationText>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
     </Node>
-    <Node ToolID="18">
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="390" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Item Code" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="PROD_CODE" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_Item Code" selected="True" input="Left_" />
+                <SelectField field="Left_Sales Year" selected="True" input="Left_" />
+                <SelectField field="Left_W#" selected="True" input="Left_" />
+                <SelectField field="Left_Emp ID" selected="True" input="Left_" />
+                <SelectField field="Left_Qty" selected="True" input="Left_" />
+                <SelectField field="Right_2020Q4" selected="True" input="Right_" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="20">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-        <Position x="294" y="246" />
+        <Position x="294" y="234" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -283,37 +319,50 @@ Query=`ProductPrices`</DefaultAnnotationText>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
     </Node>
-    <Node ToolID="19">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="378" y="306" />
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="294" y="78" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\falen\AppData\Local\Temp\Engine_13512_6c437f326b3346d283354d87e5dbf1b8_\Engine_10228_4965d3987dc94aada3bfe948ecf31f46_.yxdb</TempFile>
-          <TempFileDataProfiling />
-          <Layout>
-            <ViewMode>Single</ViewMode>
-            <ViewSize value="100" />
-            <View1>
-              <DefaultTab>Profile</DefaultTab>
-              <Hints>
-                <Table />
-              </Hints>
-            </View1>
-            <View2 />
-          </Layout>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`ProductPrices`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
         </Configuration>
         <Annotation DisplayMode="0">
           <Name />
-          <DefaultAnnotationText />
+          <DefaultAnnotationText>capstone_data_complete (1).xlsx
+Query=`ProductPrices`</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="PROD_CODE" size="255" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`ProductPrices`" type="V_String" />
+            <Field name="PROD_NAME" size="255" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`ProductPrices`" type="V_String" />
+            <Field name="URL" size="255" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`ProductPrices`" type="V_String" />
+            <Field name="link" size="255" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`ProductPrices`" type="V_String" />
+            <Field name="Manufacturer" size="255" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`ProductPrices`" type="V_String" />
+            <Field name="Extended Service Plan" size="255" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`ProductPrices`" type="V_String" />
+            <Field name="Warranty Price" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`ProductPrices`" type="Double" />
+            <Field name="2019Q1" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`ProductPrices`" type="Double" />
+            <Field name="2019Q2" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`ProductPrices`" type="Double" />
+            <Field name="2019Q3" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`ProductPrices`" type="Double" />
+            <Field name="2019Q4" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`ProductPrices`" type="Double" />
+            <Field name="2020Q1" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`ProductPrices`" type="Double" />
+            <Field name="2020Q2" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`ProductPrices`" type="Double" />
+            <Field name="2020Q3" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`ProductPrices`" type="Double" />
+            <Field name="2020Q4" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`ProductPrices`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
       </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
     </Node>
-    <Node ToolID="20">
+    <Node ToolID="23">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-        <Position x="378" y="234" />
+        <Position x="390" y="90" />
       </GuiSettings>
       <Properties>
         <Configuration joinByRecordPos="False">
@@ -321,7 +370,7 @@ Query=`ProductPrices`</DefaultAnnotationText>
             <Field field="Item Code" />
           </JoinInfo>
           <JoinInfo connection="Right">
-            <Field field="PROD_CODE" />
+            <Field field="Extended Service Plan" />
           </JoinInfo>
           <SelectConfiguration>
             <Configuration outputConnection="Join">
@@ -333,7 +382,7 @@ Query=`ProductPrices`</DefaultAnnotationText>
                 <SelectField field="Left_W#" selected="True" input="Left_" />
                 <SelectField field="Left_Emp ID" selected="True" input="Left_" />
                 <SelectField field="Left_Qty" selected="True" input="Left_" />
-                <SelectField field="Right_2020Q4" selected="True" input="Right_" />
+                <SelectField field="Right_Warranty Price" selected="True" input="Right_" />
                 <SelectField field="*Unknown" selected="False" />
               </SelectFields>
             </Configuration>
@@ -347,25 +396,18 @@ Query=`ProductPrices`</DefaultAnnotationText>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
     </Node>
-    <Node ToolID="21">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="462" y="234" />
+    <Node ToolID="25">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="570" y="162" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\falen\AppData\Local\Temp\Engine_13512_6c437f326b3346d283354d87e5dbf1b8_\Engine_10228_058226d2771f4f21ac14a72da9832e12_.yxdb</TempFile>
-          <TempFileDataProfiling />
-          <Layout>
-            <ViewMode>Single</ViewMode>
-            <ViewSize value="100" />
-            <View1>
-              <DefaultTab>Profile</DefaultTab>
-              <Hints>
-                <Table />
-              </Hints>
-            </View1>
-            <View2 />
-          </Layout>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Warranty Price" selected="True" rename="Price" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
         </Configuration>
         <Annotation DisplayMode="0">
           <Name />
@@ -373,7 +415,30 @@ Query=`ProductPrices`</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
       </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="24">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="486" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByPos</Mode>
+          <SetOutputOrder value="True" />
+          <OutputOrder>
+            <Connection>#2</Connection>
+            <Connection>#1</Connection>
+          </OutputOrder>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
     </Node>
   </Nodes>
   <Connections>
@@ -395,19 +460,31 @@ Query=`ProductPrices`</DefaultAnnotationText>
     </Connection>
     <Connection>
       <Origin ToolID="13" Connection="Output" />
-      <Destination ToolID="20" Connection="Left" />
+      <Destination ToolID="19" Connection="Left" />
     </Connection>
     <Connection>
-      <Origin ToolID="18" Connection="Output" />
-      <Destination ToolID="20" Connection="Right" />
+      <Origin ToolID="20" Connection="Output" />
+      <Destination ToolID="19" Connection="Right" />
     </Connection>
     <Connection>
-      <Origin ToolID="18" Connection="Output" />
-      <Destination ToolID="19" Connection="Input" />
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="23" Connection="Left" />
     </Connection>
     <Connection>
-      <Origin ToolID="20" Connection="Join" />
-      <Destination ToolID="21" Connection="Input" />
+      <Origin ToolID="22" Connection="Output" />
+      <Destination ToolID="23" Connection="Right" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="19" Connection="Join" />
+      <Destination ToolID="24" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="23" Connection="Join" />
+      <Destination ToolID="24" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="Output" />
+      <Destination ToolID="25" Connection="Input" />
     </Connection>
   </Connections>
   <Properties>
