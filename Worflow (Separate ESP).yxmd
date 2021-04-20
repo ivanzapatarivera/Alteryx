@@ -1,9 +1,218 @@
 <?xml version="1.0"?>
 <AlteryxDocument yxmdVer="2021.1">
   <Nodes>
-    <Node ToolID="1">
+    <Node ToolID="105">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-        <Position x="54" y="198" />
+        <Position x="42" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`Products`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>capstone_data_complete (1).xlsx
+Query=`Products`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="PROD_CODE" size="255" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`Products`" type="V_String" />
+            <Field name="PROD_NAME" size="255" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`Products`" type="V_String" />
+            <Field name="URL" size="255" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`Products`" type="V_String" />
+            <Field name="link" size="255" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`Products`" type="V_String" />
+            <Field name="Manufacturer" size="255" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`Products`" type="V_String" />
+            <Field name="Extended Service Plan" size="255" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`Products`" type="V_String" />
+            <Field name="Warranty Price" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`Products`" type="Double" />
+            <Field name="2019Q1" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`Products`" type="Double" />
+            <Field name="2019Q2" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`Products`" type="Double" />
+            <Field name="2019Q3" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`Products`" type="Double" />
+            <Field name="2019Q4" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`Products`" type="Double" />
+            <Field name="2020Q1" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`Products`" type="Double" />
+            <Field name="2020Q2" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`Products`" type="Double" />
+            <Field name="2020Q3" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`Products`" type="Double" />
+            <Field name="2020Q4" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`Products`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="107">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Transpose.Transpose">
+        <Position x="126" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ErrorWarn>Warn</ErrorWarn>
+          <KeyFields>
+            <Field field="PROD_CODE" />
+            <Field field="Manufacturer" />
+            <Field field="Extended Service Plan" />
+          </KeyFields>
+          <DataFields>
+            <Field field="PROD_CODE" selected="False" />
+            <Field field="PROD_NAME" selected="False" />
+            <Field field="URL" selected="False" />
+            <Field field="link" selected="False" />
+            <Field field="Manufacturer" selected="False" />
+            <Field field="Extended Service Plan" selected="False" />
+            <Field field="Warranty Price" selected="False" />
+            <Field field="2019Q1" selected="True" />
+            <Field field="2019Q2" selected="True" />
+            <Field field="2019Q3" selected="True" />
+            <Field field="2019Q4" selected="True" />
+            <Field field="2020Q1" selected="True" />
+            <Field field="2020Q2" selected="True" />
+            <Field field="2020Q3" selected="True" />
+            <Field field="2020Q4" selected="True" />
+            <Field field="*Unknown" selected="False" />
+          </DataFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTranspose" />
+    </Node>
+    <Node ToolID="108">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="42" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`Products`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>capstone_data_complete (1).xlsx
+Query=`Products`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="PROD_CODE" size="255" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`Products`" type="V_String" />
+            <Field name="PROD_NAME" size="255" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`Products`" type="V_String" />
+            <Field name="URL" size="255" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`Products`" type="V_String" />
+            <Field name="link" size="255" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`Products`" type="V_String" />
+            <Field name="Manufacturer" size="255" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`Products`" type="V_String" />
+            <Field name="Extended Service Plan" size="255" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`Products`" type="V_String" />
+            <Field name="Warranty Price" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`Products`" type="Double" />
+            <Field name="2019Q1" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`Products`" type="Double" />
+            <Field name="2019Q2" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`Products`" type="Double" />
+            <Field name="2019Q3" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`Products`" type="Double" />
+            <Field name="2019Q4" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`Products`" type="Double" />
+            <Field name="2020Q1" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`Products`" type="Double" />
+            <Field name="2020Q2" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`Products`" type="Double" />
+            <Field name="2020Q3" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`Products`" type="Double" />
+            <Field name="2020Q4" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`Products`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="109">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Transpose.Transpose">
+        <Position x="126" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ErrorWarn>Warn</ErrorWarn>
+          <KeyFields>
+            <Field field="Extended Service Plan" />
+          </KeyFields>
+          <DataFields>
+            <Field field="PROD_CODE" selected="False" />
+            <Field field="PROD_NAME" selected="False" />
+            <Field field="URL" selected="False" />
+            <Field field="link" selected="False" />
+            <Field field="Manufacturer" selected="False" />
+            <Field field="Extended Service Plan" selected="False" />
+            <Field field="Warranty Price" selected="True" />
+            <Field field="2019Q1" selected="False" />
+            <Field field="2019Q2" selected="False" />
+            <Field field="2019Q3" selected="False" />
+            <Field field="2019Q4" selected="False" />
+            <Field field="2020Q1" selected="False" />
+            <Field field="2020Q2" selected="False" />
+            <Field field="2020Q3" selected="False" />
+            <Field field="2020Q4" selected="False" />
+            <Field field="*Unknown" selected="False" />
+          </DataFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTranspose" />
+    </Node>
+    <Node ToolID="110">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="294" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="PROD_CODE" selected="True" rename="PROD Code" />
+            <SelectField field="Manufacturer" selected="True" />
+            <SelectField field="Extended Service Plan" selected="True" />
+            <SelectField field="Name" selected="True" rename="Period" />
+            <SelectField field="Value" selected="True" rename="PROD Price" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="111">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="294" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Extended Service Plan" selected="True" rename="ESP Code" />
+            <SelectField field="Name" selected="False" />
+            <SelectField field="Value" selected="True" rename="Price" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="112">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="42" y="174" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -20,6 +229,9 @@
 Query=`WeeklySales`</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name="Index" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`WeeklySales`" type="Double" />
@@ -83,9 +295,9 @@ Query=`WeeklySales`</DefaultAnnotationText>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
     </Node>
-    <Node ToolID="8">
+    <Node ToolID="113">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Transpose.Transpose">
-        <Position x="138" y="198" />
+        <Position x="126" y="174" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -152,7 +364,7 @@ Query=`WeeklySales`</DefaultAnnotationText>
             <Field field="W49" selected="True" />
             <Field field="W50" selected="True" />
             <Field field="W51" selected="True" />
-            <Field field="*Unknown" selected="False" />
+            <Field field="*Unknown" selected="True" />
           </DataFields>
         </Configuration>
         <Annotation DisplayMode="0">
@@ -163,71 +375,32 @@ Query=`WeeklySales`</DefaultAnnotationText>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTranspose" />
     </Node>
-    <Node ToolID="22">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-        <Position x="54" y="138" />
+    <Node ToolID="114">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="294" y="174" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <Passwords />
-          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`ProductPrices`</File>
-          <FormatSpecificOptions>
-            <FirstRowData>False</FirstRowData>
-            <ImportLine>1</ImportLine>
-          </FormatSpecificOptions>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="ITEM_CODE" selected="True" rename="ITEM Code" />
+            <SelectField field="Name" selected="True" rename="W#" />
+            <SelectField field="Value" selected="True" rename="Qty" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
         </Configuration>
         <Annotation DisplayMode="0">
           <Name />
-          <DefaultAnnotationText>capstone_data_complete (1).xlsx
-Query=`ProductPrices`</DefaultAnnotationText>
-          <Left value="False" />
-        </Annotation>
-        <MetaInfo connection="Output">
-          <RecordInfo>
-            <Field name="PROD_CODE" size="255" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`ProductPrices`" type="V_String" />
-            <Field name="PROD_NAME" size="255" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`ProductPrices`" type="V_String" />
-            <Field name="URL" size="255" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`ProductPrices`" type="V_String" />
-            <Field name="link" size="255" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`ProductPrices`" type="V_String" />
-            <Field name="Manufacturer" size="255" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`ProductPrices`" type="V_String" />
-            <Field name="Extended Service Plan" size="255" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`ProductPrices`" type="V_String" />
-            <Field name="Warranty Price" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`ProductPrices`" type="Double" />
-            <Field name="2019Q1" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`ProductPrices`" type="Double" />
-            <Field name="2019Q2" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`ProductPrices`" type="Double" />
-            <Field name="2019Q3" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`ProductPrices`" type="Double" />
-            <Field name="2019Q4" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`ProductPrices`" type="Double" />
-            <Field name="2020Q1" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`ProductPrices`" type="Double" />
-            <Field name="2020Q2" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`ProductPrices`" type="Double" />
-            <Field name="2020Q3" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`ProductPrices`" type="Double" />
-            <Field name="2020Q4" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`ProductPrices`" type="Double" />
-          </RecordInfo>
-        </MetaInfo>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
-    </Node>
-    <Node ToolID="27">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="1086" y="150" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <FormulaFields>
-            <FormulaField expression="[Qty]*[Price]" field="Total $" size="1073741823" type="V_WString" />
-            <FormulaField expression="ToString([Sales Year]) + 'Q' + ToString([Sales Period])" field="Sales Quarter" size="1073741823" type="V_WString" />
-            <FormulaField expression="[ESP Qty] * [ESP Price]" field="ESP_Total $" size="1073741823" type="V_WString" />
-          </FormulaFields>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText>Total $ = [Qty]*[Price]
-Sales Quarter = ToString([Sales Year]) + 'Q' + ToString(...</DefaultAnnotationText>
+          <DefaultAnnotationText />
           <Left value="False" />
         </Annotation>
       </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
     </Node>
-    <Node ToolID="28">
+    <Node ToolID="117">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-        <Position x="54" y="258" />
+        <Position x="42" y="54" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -244,6 +417,9 @@ Sales Quarter = ToString([Sales Year]) + 'Q' + ToString(...</DefaultAnnotationTe
 Query=`WeeksPeriods`</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name="Week0+" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`WeeksPeriods`" type="Double" />
@@ -257,47 +433,181 @@ Query=`WeeksPeriods`</DefaultAnnotationText>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
     </Node>
-    <Node ToolID="32">
+    <Node ToolID="118">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="138" y="258" />
+        <Position x="126" y="54" />
       </GuiSettings>
       <Properties>
         <Configuration>
           <FormulaFields>
-            <FormulaField expression="&quot;W&quot;" field="W" size="1073741823" type="V_WString" />
-            <FormulaField expression="ToString([Week0+])" field="WeekStr" size="1073741823" type="V_WString" />
-            <FormulaField expression="[W] + [WeekStr]" field="Week" size="1073741823" type="V_WString" />
-            <FormulaField expression="ToString([Sales Year]) + 'Q' + ToString([Quarter])" field="Period" size="1073741823" type="V_WString" />
+            <FormulaField expression="ToString([Sales Year])" field="Year Str" size="1073741823" type="V_WString" />
+            <FormulaField expression="ToString([Quarter])" field="Quarter Str" size="1073741823" type="V_WString" />
+            <FormulaField expression="[Year Str] + 'Q' + [Quarter Str]" field="Period" size="1073741823" type="V_WString" />
+            <FormulaField expression="ToString([Week0+])" field="Week Str" size="1073741823" type="V_WString" />
+            <FormulaField expression="'W' + [Week Str]" field="W#" size="1073741823" type="V_WString" />
+            <FormulaField expression="ToDate((DateTimeAdd([Date],6,'Days')))" field="End Date" size="1073741823" type="V_WString" />
           </FormulaFields>
         </Configuration>
         <Annotation DisplayMode="0">
           <Name />
-          <DefaultAnnotationText>W = "W"
-WeekStr = ToString([Week0+])
-Week = [W] + [WeekStr]
-Period = ToString([S...</DefaultAnnotationText>
+          <DefaultAnnotationText>Year Str = ToString([Sales Year])
+Quarter Str = ToString([Quarter])
+Period = [Ye...</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
     </Node>
-    <Node ToolID="46">
+    <Node ToolID="119">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="294" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Year Str" selected="False" />
+            <SelectField field="Quarter Str" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="121">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-        <Position x="1254" y="162" />
+        <Position x="378" y="66" />
       </GuiSettings>
       <Properties>
         <Configuration joinByRecordPos="False">
           <JoinInfo connection="Left">
-            <Field field="EmpID" />
+            <Field field="Period" />
           </JoinInfo>
           <JoinInfo connection="Right">
-            <Field field="EmpID" />
+            <Field field="Period" />
           </JoinInfo>
           <SelectConfiguration>
             <Configuration outputConnection="Join">
               <OrderChanged value="False" />
               <CommaDecimal value="False" />
               <SelectFields>
+                <SelectField field="Right_Period" selected="False" rename="Right_Period" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="127">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="378" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="ITEM Code" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="ESP Code" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="128">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="462" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="PROD Code" />
+            <Field field="Sales Year" />
+            <Field field="W#" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="ITEM Code" />
+            <Field field="Year" />
+            <Field field="W#" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_W#" selected="True" rename="Right_W#" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="132">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="558" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Extended Service Plan" />
+            <Field field="Sales Year" />
+            <Field field="W#" />
+            <Field field="EMP_ID" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="ESP Code" />
+            <Field field="Year" />
+            <Field field="W#" />
+            <Field field="EMP_ID" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_Right_W#" selected="True" rename="Left_Right_W#" input="Left_" />
+                <SelectField field="Right_ITEM Code" selected="True" rename="Right_ITEM Code" input="Right_" />
+                <SelectField field="Right_EMP_ID" selected="True" rename="Right_EMP_ID" input="Right_" />
+                <SelectField field="Right_Year" selected="True" rename="Right_Year" input="Right_" />
+                <SelectField field="Right_W#" selected="True" rename="Right_W#" input="Right_" />
+                <SelectField field="Right_Qty" selected="True" rename="Right_Qty" input="Right_" />
+                <SelectField field="Right_Sales Team Lead" selected="True" rename="Right_Sales Team Lead" input="Right_" />
+                <SelectField field="Right_PayGrade" selected="True" rename="Right_PayGrade" input="Right_" />
+                <SelectField field="Right_Region" selected="True" rename="Right_Region" input="Right_" />
                 <SelectField field="Right_EmpID" selected="True" rename="Right_EmpID" input="Right_" />
                 <SelectField field="*Unknown" selected="True" />
               </SelectFields>
@@ -312,9 +622,9 @@ Period = ToString([S...</DefaultAnnotationText>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
     </Node>
-    <Node ToolID="48">
+    <Node ToolID="133">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-        <Position x="1170" y="210" />
+        <Position x="42" y="234" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -331,6 +641,9 @@ Period = ToString([S...</DefaultAnnotationText>
 Query=`Sales_Team_Lead`</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name="Sales Team Lead" size="255" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`Sales_Team_Lead`" type="V_String" />
@@ -342,9 +655,123 @@ Query=`Sales_Team_Lead`</DefaultAnnotationText>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
     </Node>
-    <Node ToolID="51">
+    <Node ToolID="134">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="210" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="EMP_ID" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="EmpID" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="135">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="810" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="PROD Code" selected="True" />
+            <SelectField field="Sales Year" selected="True" />
+            <SelectField field="W#" selected="True" />
+            <SelectField field="Week1+" selected="True" rename="Week Number" />
+            <SelectField field="EmpID" selected="True" />
+            <SelectField field="Qty" selected="True" rename="PROD Qty" />
+            <SelectField field="PROD Price" selected="True" />
+            <SelectField field="PROD Total $" selected="True" />
+            <SelectField field="ESP Code" selected="True" />
+            <SelectField field="Right_Qty" selected="True" rename="ESP Qty" />
+            <SelectField field="Price" selected="True" rename="ESP Price" />
+            <SelectField field="ESP Total $" selected="True" />
+            <SelectField field="Sales Period" selected="True" />
+            <SelectField field="Period" selected="True" rename="Sales Quarter" />
+            <SelectField field="Date" selected="True" rename="Week Start Date" />
+            <SelectField field="End Date" selected="True" rename="Week End Date" />
+            <SelectField field="Right_PayGrade" selected="True" rename="Employee Paygrade" />
+            <SelectField field="Region" selected="True" />
+            <SelectField field="Manufacturer" selected="True" />
+            <SelectField field="Sales Team Lead3" selected="True" rename="First Name" />
+            <SelectField field="Sales Team Lead1" selected="True" rename="Last Name" />
+            <SelectField field="Right_Region" selected="False" />
+            <SelectField field="Week Str" selected="False" />
+            <SelectField field="Week0+" selected="False" />
+            <SelectField field="ITEM Code" selected="False" />
+            <SelectField field="EMP_ID" selected="False" />
+            <SelectField field="Total $" selected="False" />
+            <SelectField field="Year" selected="False" />
+            <SelectField field="Left_Right_W#" selected="False" />
+            <SelectField field="Sales Team Lead" selected="False" />
+            <SelectField field="Quarter" selected="False" />
+            <SelectField field="PayGrade" selected="False" />
+            <SelectField field="Right_ITEM Code" selected="False" />
+            <SelectField field="Right_EMP_ID" selected="False" />
+            <SelectField field="Right_Year" selected="False" />
+            <SelectField field="Right_W#" selected="False" />
+            <SelectField field="Right_Sales Team Lead" selected="False" />
+            <SelectField field="Right_EmpID" selected="False" />
+            <SelectField field="Extended Service Plan" selected="False" />
+            <SelectField field="1" selected="False" />
+            <SelectField field="2" selected="False" />
+            <SelectField field="3" selected="False" />
+            <SelectField field="Sales Team Lead2" selected="False" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="136">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="642" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="[Qty] * [PROD Price]" field="PROD Total $" size="1073741823" type="V_WString" />
+            <FormulaField expression="[Right_Qty] * [Price]" field="ESP Total $" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[PROD Total $ = [Qty] * [PROD Price]
+ESP Total $ = [Right_Qty] * [Price]
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="137">
       <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
-        <Position x="1338" y="162" />
+        <Position x="726" y="174" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -363,138 +790,33 @@ Query=`Sales_Team_Lead`</DefaultAnnotationText>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
     </Node>
-    <Node ToolID="52">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="1422" y="162" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <OrderChanged value="True" />
-          <CommaDecimal value="False" />
-          <SelectFields>
-            <SelectField field="ItemCode" selected="True" />
-            <SelectField field="Item Code" selected="False" />
-            <SelectField field="Sales Year" selected="True" />
-            <SelectField field="W#" selected="True" />
-            <SelectField field="Week Number" selected="True" />
-            <SelectField field="EmpID" selected="True" />
-            <SelectField field="Week1+" selected="False" rename="Week Number" />
-            <SelectField field="Emp ID" selected="False" />
-            <SelectField field="Qty" selected="True" />
-            <SelectField field="Warranty Price" selected="False" rename="Price" />
-            <SelectField field="Price" selected="True" />
-            <SelectField field="Total $" selected="True" />
-            <SelectField field="ESP Qty" selected="True" />
-            <SelectField field="ESP Price" selected="True" />
-            <SelectField field="ESP_Total $" selected="True" />
-            <SelectField field="Sales Period" selected="True" />
-            <SelectField field="Sales Quarter" selected="True" />
-            <SelectField field="2019Q2" selected="False" />
-            <SelectField field="2019Q3" selected="False" />
-            <SelectField field="2019Q4" selected="False" />
-            <SelectField field="2020Q1" selected="False" />
-            <SelectField field="2020Q2" selected="False" />
-            <SelectField field="2020Q3" selected="False" />
-            <SelectField field="2020Q4" selected="False" />
-            <SelectField field="2019Q1" selected="False" />
-            <SelectField field="Date" selected="False" rename="Week Start Date" />
-            <SelectField field="End Date" selected="False" rename="Week End Date" />
-            <SelectField field="Week Start Date" selected="True" />
-            <SelectField field="Week End Date" selected="True" />
-            <SelectField field="PayGrade" selected="True" rename="Employee Paygrade" />
-            <SelectField field="Region" selected="True" />
-            <SelectField field="Manufacturer" selected="True" />
-            <SelectField field="Sales Team Lead" selected="False" />
-            <SelectField field="Sales Team Lead3" selected="True" rename="First Name" />
-            <SelectField field="Sales Team Lead1" selected="True" rename="Last Name" />
-            <SelectField field="Sales Team Lead2" selected="False" />
-            <SelectField field="Right_EmpID" selected="False" />
-            <SelectField field="*Unknown" selected="False" />
-          </SelectFields>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText />
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
-    </Node>
-    <Node ToolID="53">
+    <Node ToolID="138">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
-        <Position x="1506" y="162" />
+        <Position x="894" y="174" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <SortInfo locale="1033">
+          <SortInfo>
             <Field field="Sales Year" order="Ascending" />
             <Field field="W#" order="Ascending" />
+            <Field field="PROD Code" order="Ascending" />
           </SortInfo>
         </Configuration>
         <Annotation DisplayMode="0">
           <Name />
           <DefaultAnnotationText>Sales Year - Ascending
-W# - Ascending</DefaultAnnotationText>
+W# - Ascending
+PROD Code - Ascending</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
     </Node>
-    <Node ToolID="57">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="222" y="138" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <OrderChanged value="True" />
-          <CommaDecimal value="False" />
-          <SelectFields>
-            <SelectField field="PROD_CODE" selected="False" />
-            <SelectField field="PROD_NAME" selected="False" />
-            <SelectField field="URL" selected="False" />
-            <SelectField field="link" selected="False" />
-            <SelectField field="Extended Service Plan" selected="True" rename="Item Code" />
-            <SelectField field="Warranty Price" selected="True" rename="Price" />
-            <SelectField field="2019Q1" selected="False" />
-            <SelectField field="2019Q2" selected="False" />
-            <SelectField field="2019Q3" selected="False" />
-            <SelectField field="2019Q4" selected="False" />
-            <SelectField field="2020Q1" selected="False" />
-            <SelectField field="2020Q2" selected="False" />
-            <SelectField field="2020Q3" selected="False" />
-            <SelectField field="2020Q4" selected="False" />
-            <SelectField field="*Unknown" selected="False" />
-            <SelectField field="Manufacturer" selected="True" />
-          </SelectFields>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText />
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
-    </Node>
-    <Node ToolID="49">
+    <Node ToolID="139">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="1590" y="162" />
+        <Position x="978" y="174" />
       </GuiSettings>
       <Properties>
-        <Configuration>
-          <TempFile>C:\Users\falen\AppData\Local\Temp\Engine_15684_f89372288d8042a2b76fe611e1273840_\Engine_24228_910b6bf0edbd4dfcad0cba8da2df6aec_.yxdb</TempFile>
-          <TempFileDataProfiling />
-          <Layout>
-            <ViewMode>Single</ViewMode>
-            <ViewSize value="100" />
-            <View1>
-              <DefaultTab>Profile</DefaultTab>
-              <Hints>
-                <Table />
-              </Hints>
-            </View1>
-            <View2 />
-          </Layout>
-        </Configuration>
         <Annotation DisplayMode="0">
           <Name />
           <DefaultAnnotationText />
@@ -503,709 +825,99 @@ W# - Ascending</DefaultAnnotationText>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
     </Node>
-    <Node ToolID="60">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-        <Position x="54" y="318" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <Passwords />
-          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`ProductPrices`</File>
-          <FormatSpecificOptions>
-            <FirstRowData>False</FirstRowData>
-            <ImportLine>1</ImportLine>
-          </FormatSpecificOptions>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText>capstone_data_complete (1).xlsx
-Query=`ProductPrices`</DefaultAnnotationText>
-          <Left value="False" />
-        </Annotation>
-        <MetaInfo connection="Output">
-          <RecordInfo>
-            <Field name="PROD_CODE" size="255" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`ProductPrices`" type="V_String" />
-            <Field name="PROD_NAME" size="255" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`ProductPrices`" type="V_String" />
-            <Field name="URL" size="255" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`ProductPrices`" type="V_String" />
-            <Field name="link" size="255" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`ProductPrices`" type="V_String" />
-            <Field name="Manufacturer" size="255" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`ProductPrices`" type="V_String" />
-            <Field name="Extended Service Plan" size="255" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`ProductPrices`" type="V_String" />
-            <Field name="Warranty Price" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`ProductPrices`" type="Double" />
-            <Field name="2019Q1" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`ProductPrices`" type="Double" />
-            <Field name="2019Q2" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`ProductPrices`" type="Double" />
-            <Field name="2019Q3" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`ProductPrices`" type="Double" />
-            <Field name="2019Q4" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`ProductPrices`" type="Double" />
-            <Field name="2020Q1" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`ProductPrices`" type="Double" />
-            <Field name="2020Q2" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`ProductPrices`" type="Double" />
-            <Field name="2020Q3" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`ProductPrices`" type="Double" />
-            <Field name="2020Q4" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`ProductPrices`" type="Double" />
-          </RecordInfo>
-        </MetaInfo>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
-    </Node>
-    <Node ToolID="61">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.Transpose.Transpose">
-        <Position x="138" y="318" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <ErrorWarn>Warn</ErrorWarn>
-          <KeyFields>
-            <Field field="PROD_CODE" />
-            <Field field="Manufacturer" />
-            <Field field="Extended Service Plan" />
-            <Field field="Warranty Price" />
-          </KeyFields>
-          <DataFields>
-            <Field field="PROD_CODE" selected="False" />
-            <Field field="PROD_NAME" selected="False" />
-            <Field field="URL" selected="False" />
-            <Field field="link" selected="False" />
-            <Field field="Manufacturer" selected="False" />
-            <Field field="Extended Service Plan" selected="False" />
-            <Field field="Warranty Price" selected="False" />
-            <Field field="2019Q1" selected="True" />
-            <Field field="2019Q2" selected="True" />
-            <Field field="2019Q3" selected="True" />
-            <Field field="2019Q4" selected="True" />
-            <Field field="2020Q1" selected="True" />
-            <Field field="2020Q2" selected="True" />
-            <Field field="2020Q3" selected="True" />
-            <Field field="2020Q4" selected="True" />
-            <Field field="*Unknown" selected="False" />
-          </DataFields>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText />
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTranspose" />
-    </Node>
-    <Node ToolID="68">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="222" y="318" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <OrderChanged value="False" />
-          <CommaDecimal value="False" />
-          <SelectFields>
-            <SelectField field="PROD_CODE" selected="True" />
-            <SelectField field="Manufacturer" selected="True" />
-            <SelectField field="Extended Service Plan" selected="True" />
-            <SelectField field="Warranty Price" selected="True" />
-            <SelectField field="Name" selected="True" rename="Period" />
-            <SelectField field="Value" selected="True" />
-            <SelectField field="Name2" selected="False" rename="Quarter" />
-            <SelectField field="*Unknown" selected="False" />
-          </SelectFields>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText />
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
-    </Node>
-    <Node ToolID="75">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-        <Position x="306" y="306" />
-      </GuiSettings>
-      <Properties>
-        <Configuration joinByRecordPos="False">
-          <JoinInfo connection="Left">
-            <Field field="Period" />
-          </JoinInfo>
-          <JoinInfo connection="Right">
-            <Field field="Period" />
-          </JoinInfo>
-          <SelectConfiguration>
-            <Configuration outputConnection="Join">
-              <OrderChanged value="False" />
-              <CommaDecimal value="False" />
-              <SelectFields>
-                <SelectField field="Right_Period" selected="True" rename="Right_Period" input="Right_" />
-                <SelectField field="*Unknown" selected="True" />
-              </SelectFields>
-            </Configuration>
-          </SelectConfiguration>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText />
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
-    </Node>
-    <Node ToolID="79">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
-        <Position x="390" y="318" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <SortInfo locale="0">
-            <Field field="PROD_CODE" order="Ascending" />
-            <Field field="Right_Period" order="Ascending" />
-          </SortInfo>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText>PROD_CODE - Ascending
-Right_Period - Ascending</DefaultAnnotationText>
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
-    </Node>
-    <Node ToolID="80">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="474" y="318" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <OrderChanged value="False" />
-          <CommaDecimal value="False" />
-          <SelectFields>
-            <SelectField field="Week0+" selected="True" />
-            <SelectField field="Week1+" selected="True" />
-            <SelectField field="Sales Period" selected="True" />
-            <SelectField field="Sales Year" selected="True" rename="Year" />
-            <SelectField field="Week" selected="True" rename="Name" />
-            <SelectField field="PROD_CODE" selected="True" />
-            <SelectField field="Manufacturer" selected="True" />
-            <SelectField field="Extended Service Plan" selected="True" />
-            <SelectField field="Warranty Price" selected="True" />
-            <SelectField field="Right_Period" selected="True" rename="Period" />
-            <SelectField field="Value" selected="True" rename="Price" />
-            <SelectField field="*Unknown" selected="False" />
-          </SelectFields>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText />
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
-    </Node>
-    <Node ToolID="84">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="222" y="198" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <OrderChanged value="False" />
-          <CommaDecimal value="False" />
-          <SelectFields>
-            <SelectField field="Value" selected="True" rename="Quantity" />
-            <SelectField field="*Unknown" selected="True" />
-          </SelectFields>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText />
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
-    </Node>
-    <Node ToolID="87">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="222" y="258" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <OrderChanged value="False" />
-          <CommaDecimal value="False" />
-          <SelectFields>
-            <SelectField field="Sales Year" selected="False" />
-            <SelectField field="Quarter" selected="False" />
-            <SelectField field="Period" selected="False" />
-            <SelectField field="Value" selected="True" rename="Price" />
-            <SelectField field="*Unknown" selected="True" />
-          </SelectFields>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText />
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
-    </Node>
-    <Node ToolID="88">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="558" y="258" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <FormulaFields>
-            <FormulaField expression="DateTimeAdd([Date],6,'Days')" field="End Date" size="1073741823" type="V_WString" />
-            <FormulaField expression="ToDate([End Date])" field="End Date" size="1073741823" type="V_WString" />
-            <FormulaField expression="Left(ToString([End Date]), 4)" field="Year" size="1073741823" type="V_WString" />
-            <FormulaField expression="ToString([Year]) + Week" field="Week Period" size="1073741823" type="V_WString" />
-          </FormulaFields>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText>End Date = DateTimeAdd([Date],6,'Days')
-End Date = ToDate([End Date])
-Year = Lef...</DefaultAnnotationText>
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
-    </Node>
-    <Node ToolID="89">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-        <Position x="306" y="138" />
-      </GuiSettings>
-      <Properties>
-        <Configuration joinByRecordPos="False">
-          <JoinInfo connection="Left">
-            <Field field="ITEM_CODE" />
-          </JoinInfo>
-          <JoinInfo connection="Right">
-            <Field field="Item Code" />
-          </JoinInfo>
-          <SelectConfiguration>
-            <Configuration outputConnection="Join">
-              <OrderChanged value="False" />
-              <CommaDecimal value="False" />
-              <SelectFields>
-                <SelectField field="Right_Item Code" selected="False" input="Right_" />
-                <SelectField field="*Unknown" selected="True" />
-              </SelectFields>
-            </Configuration>
-          </SelectConfiguration>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText />
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
-    </Node>
-    <Node ToolID="90">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="558" y="198" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <FormulaFields>
-            <FormulaField expression="ToString([Year]) + [Name]" field="Week Period" size="1073741823" type="V_WString" />
-          </FormulaFields>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText><![CDATA[Week Period = ToString([Year]) + [Name]
-]]></DefaultAnnotationText>
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
-    </Node>
-    <Node ToolID="91">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="558" y="318" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <FormulaFields>
-            <FormulaField expression="ToString([Year]) + [Name]" field="Week Period" size="1073741823" type="V_WString" />
-          </FormulaFields>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText><![CDATA[Week Period = ToString([Year]) + [Name]
-]]></DefaultAnnotationText>
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
-    </Node>
-    <Node ToolID="92">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-        <Position x="642" y="306" />
-      </GuiSettings>
-      <Properties>
-        <Configuration joinByRecordPos="False">
-          <JoinInfo connection="Left">
-            <Field field="ITEM_CODE" />
-            <Field field="Week Period" />
-          </JoinInfo>
-          <JoinInfo connection="Right">
-            <Field field="PROD_CODE" />
-            <Field field="Week Period" />
-          </JoinInfo>
-          <SelectConfiguration>
-            <Configuration outputConnection="Join">
-              <OrderChanged value="False" />
-              <CommaDecimal value="False" />
-              <SelectFields>
-                <SelectField field="Right_Year" selected="False" rename="Right_Year" input="Right_" />
-                <SelectField field="Right_Name" selected="False" rename="Right_Name" input="Right_" />
-                <SelectField field="Right_PROD_CODE" selected="False" input="Right_" />
-                <SelectField field="Right_Week Period" selected="False" rename="Right_Week Period" input="Right_" />
-                <SelectField field="*Unknown" selected="True" />
-              </SelectFields>
-            </Configuration>
-          </SelectConfiguration>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText />
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
-    </Node>
-    <Node ToolID="94">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="558" y="138" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <FormulaFields>
-            <FormulaField expression="ToString([Year]) + [Name]" field="Week Period" size="1073741823" type="V_WString" />
-          </FormulaFields>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText><![CDATA[Week Period = ToString([Year]) + [Name]
-]]></DefaultAnnotationText>
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
-    </Node>
-    <Node ToolID="95">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="726" y="306" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <OrderChanged value="True" />
-          <CommaDecimal value="False" />
-          <SelectFields>
-            <SelectField field="ITEM_CODE" selected="True" />
-            <SelectField field="EMP_ID" selected="True" />
-            <SelectField field="Year" selected="True" />
-            <SelectField field="Name" selected="True" />
-            <SelectField field="Quantity" selected="True" />
-            <SelectField field="Price" selected="True" />
-            <SelectField field="Manufacturer" selected="True" />
-            <SelectField field="Week Period" selected="True" />
-            <SelectField field="Week0+" selected="False" />
-            <SelectField field="Week1+" selected="False" />
-            <SelectField field="Sales Period" selected="False" />
-            <SelectField field="Period" selected="False" />
-            <SelectField field="Extended Service Plan" selected="True" rename="ESPCode" />
-            <SelectField field="Warranty Price" selected="False" />
-            <SelectField field="*Unknown" selected="False" />
-          </SelectFields>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText />
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
-    </Node>
-    <Node ToolID="98">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="1002" y="150" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <OrderChanged value="True" />
-          <CommaDecimal value="False" />
-          <SelectFields>
-            <SelectField field="ITEM_CODE" selected="True" rename="ItemCode" />
-            <SelectField field="Year" selected="True" rename="Sales Year" />
-            <SelectField field="Week" selected="True" rename="W#" />
-            <SelectField field="EMP_ID" selected="True" rename="EmpID" />
-            <SelectField field="Quantity" selected="True" rename="Qty" />
-            <SelectField field="Price" selected="True" />
-            <SelectField field="ESP Qty" selected="True" />
-            <SelectField field="ESP Price" selected="True" />
-            <SelectField field="Sales Period" selected="True" />
-            <SelectField field="Date" selected="True" rename="Week Start Date" />
-            <SelectField field="End Date" selected="True" rename="Week End Date" />
-            <SelectField field="Manufacturer" selected="True" />
-            <SelectField field="Week Period" selected="True" />
-            <SelectField field="Week0+" selected="True" />
-            <SelectField field="Week1+" selected="True" />
-            <SelectField field="ESP Code" selected="True" />
-            <SelectField field="Name" selected="True" />
-            <SelectField field="ESPCode" selected="True" />
-            <SelectField field="*Unknown" selected="True" />
-          </SelectFields>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText />
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
-    </Node>
-    <Node ToolID="99">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="1170" y="150" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <OrderChanged value="True" />
-          <CommaDecimal value="False" />
-          <SelectFields>
-            <SelectField field="ItemCode" selected="True" />
-            <SelectField field="Sales Year" selected="True" />
-            <SelectField field="W#" selected="True" />
-            <SelectField field="Week1+" selected="True" rename="Week Number" />
-            <SelectField field="EmpID" selected="True" />
-            <SelectField field="Qty" selected="True" />
-            <SelectField field="Price" selected="True" />
-            <SelectField field="Total $" selected="True" />
-            <SelectField field="ESP Qty" selected="True" />
-            <SelectField field="ESP Price" selected="True" />
-            <SelectField field="ESP_Total $" selected="True" />
-            <SelectField field="Sales Period" selected="True" />
-            <SelectField field="Sales Quarter" selected="True" />
-            <SelectField field="Week Start Date" selected="True" />
-            <SelectField field="Week End Date" selected="True" />
-            <SelectField field="Manufacturer" selected="True" />
-            <SelectField field="Week Period" selected="False" />
-            <SelectField field="Week0+" selected="False" />
-            <SelectField field="*Unknown" selected="False" />
-          </SelectFields>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText />
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
-    </Node>
-    <Node ToolID="100">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="726" y="138" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <OrderChanged value="False" />
-          <CommaDecimal value="False" />
-          <SelectFields>
-            <SelectField field="ITEM_CODE" selected="True" rename="ESPCode" />
-            <SelectField field="Quantity" selected="True" rename="ESP Qty" />
-            <SelectField field="Price" selected="True" rename="ESP Price" />
-            <SelectField field="*Unknown" selected="True" />
-          </SelectFields>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText />
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
-    </Node>
-    <Node ToolID="101">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
-        <Position x="834" y="138" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <ByName_ErrorMode>Warning</ByName_ErrorMode>
-          <ByName_OutputMode>All</ByName_OutputMode>
-          <Mode>ByName</Mode>
-          <SetOutputOrder value="False" />
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText />
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
-    </Node>
-    <Node ToolID="102">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-        <Position x="918" y="150" />
-      </GuiSettings>
-      <Properties>
-        <Configuration joinByRecordPos="False">
-          <JoinInfo connection="Left">
-            <Field field="Week Period" />
-          </JoinInfo>
-          <JoinInfo connection="Right">
-            <Field field="Week Period" />
-          </JoinInfo>
-          <SelectConfiguration>
-            <Configuration outputConnection="Join">
-              <OrderChanged value="False" />
-              <CommaDecimal value="False" />
-              <SelectFields>
-                <SelectField field="Right_Year" selected="False" rename="Right_Year" input="Right_" />
-                <SelectField field="Right_Week Period" selected="False" rename="Right_Week Period" input="Right_" />
-                <SelectField field="*Unknown" selected="True" />
-              </SelectFields>
-            </Configuration>
-          </SelectConfiguration>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText />
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
-    </Node>
   </Nodes>
   <Connections>
     <Connection>
-      <Origin ToolID="1" Connection="Output" />
-      <Destination ToolID="8" Connection="Input" />
+      <Origin ToolID="105" Connection="Output" />
+      <Destination ToolID="107" Connection="Input" />
     </Connection>
     <Connection>
-      <Origin ToolID="8" Connection="Output" />
-      <Destination ToolID="84" Connection="Input" />
+      <Origin ToolID="107" Connection="Output" />
+      <Destination ToolID="110" Connection="Input" />
     </Connection>
     <Connection>
-      <Origin ToolID="22" Connection="Output" />
-      <Destination ToolID="57" Connection="Input" />
+      <Origin ToolID="108" Connection="Output" />
+      <Destination ToolID="109" Connection="Input" />
     </Connection>
     <Connection>
-      <Origin ToolID="27" Connection="Output" />
-      <Destination ToolID="99" Connection="Input" />
+      <Origin ToolID="109" Connection="Output" />
+      <Destination ToolID="111" Connection="Input" />
     </Connection>
     <Connection>
-      <Origin ToolID="28" Connection="Output" />
-      <Destination ToolID="32" Connection="Input" />
+      <Origin ToolID="110" Connection="Output" />
+      <Destination ToolID="121" Connection="Right" />
     </Connection>
     <Connection>
-      <Origin ToolID="32" Connection="Output" />
-      <Destination ToolID="87" Connection="Input" />
+      <Origin ToolID="119" Connection="Output" />
+      <Destination ToolID="121" Connection="Left" />
     </Connection>
     <Connection>
-      <Origin ToolID="32" Connection="Output" />
-      <Destination ToolID="75" Connection="Left" />
+      <Origin ToolID="111" Connection="Output" />
+      <Destination ToolID="127" Connection="Right" />
     </Connection>
     <Connection>
-      <Origin ToolID="68" Connection="Output" />
-      <Destination ToolID="75" Connection="Right" />
+      <Origin ToolID="114" Connection="Output" />
+      <Destination ToolID="127" Connection="Left" />
     </Connection>
     <Connection>
-      <Origin ToolID="46" Connection="Join" />
-      <Destination ToolID="51" Connection="Input" />
+      <Origin ToolID="112" Connection="Output" />
+      <Destination ToolID="113" Connection="Input" />
     </Connection>
     <Connection>
-      <Origin ToolID="48" Connection="Output" />
-      <Destination ToolID="46" Connection="Right" />
+      <Origin ToolID="113" Connection="Output" />
+      <Destination ToolID="134" Connection="Left" />
     </Connection>
     <Connection>
-      <Origin ToolID="99" Connection="Output" />
-      <Destination ToolID="46" Connection="Left" />
+      <Origin ToolID="133" Connection="Output" />
+      <Destination ToolID="134" Connection="Right" />
     </Connection>
     <Connection>
-      <Origin ToolID="51" Connection="Output" />
-      <Destination ToolID="52" Connection="Input" />
+      <Origin ToolID="114" Connection="Output" />
+      <Destination ToolID="128" Connection="Right" />
     </Connection>
     <Connection>
-      <Origin ToolID="52" Connection="Output" />
-      <Destination ToolID="53" Connection="Input" />
+      <Origin ToolID="121" Connection="Join" />
+      <Destination ToolID="128" Connection="Left" />
     </Connection>
     <Connection>
-      <Origin ToolID="53" Connection="Output" />
-      <Destination ToolID="49" Connection="Input" />
+      <Origin ToolID="117" Connection="Output" />
+      <Destination ToolID="118" Connection="Input" />
     </Connection>
     <Connection>
-      <Origin ToolID="57" Connection="Output" />
-      <Destination ToolID="89" Connection="Right" />
+      <Origin ToolID="118" Connection="Output" />
+      <Destination ToolID="119" Connection="Input" />
     </Connection>
     <Connection>
-      <Origin ToolID="84" Connection="Output" />
-      <Destination ToolID="89" Connection="Left" />
+      <Origin ToolID="127" Connection="Join" />
+      <Destination ToolID="132" Connection="Right" />
     </Connection>
     <Connection>
-      <Origin ToolID="60" Connection="Output" />
-      <Destination ToolID="61" Connection="Input" />
+      <Origin ToolID="128" Connection="Join" />
+      <Destination ToolID="132" Connection="Left" />
     </Connection>
     <Connection>
-      <Origin ToolID="61" Connection="Output" />
-      <Destination ToolID="68" Connection="Input" />
+      <Origin ToolID="132" Connection="Join" />
+      <Destination ToolID="136" Connection="Input" />
     </Connection>
     <Connection>
-      <Origin ToolID="75" Connection="Join" />
-      <Destination ToolID="79" Connection="Input" />
+      <Origin ToolID="134" Connection="Join" />
+      <Destination ToolID="114" Connection="Input" />
     </Connection>
     <Connection>
-      <Origin ToolID="79" Connection="Output" />
-      <Destination ToolID="80" Connection="Input" />
+      <Origin ToolID="135" Connection="Output" />
+      <Destination ToolID="138" Connection="Input" />
     </Connection>
     <Connection>
-      <Origin ToolID="80" Connection="Output" />
-      <Destination ToolID="91" Connection="Input" />
+      <Origin ToolID="136" Connection="Output" />
+      <Destination ToolID="137" Connection="Input" />
     </Connection>
     <Connection>
-      <Origin ToolID="84" Connection="Output" />
-      <Destination ToolID="90" Connection="Input" />
+      <Origin ToolID="137" Connection="Output" />
+      <Destination ToolID="135" Connection="Input" />
     </Connection>
     <Connection>
-      <Origin ToolID="87" Connection="Output" />
-      <Destination ToolID="88" Connection="Input" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="88" Connection="Output" />
-      <Destination ToolID="102" Connection="Right" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="101" Connection="Output" />
-      <Destination ToolID="102" Connection="Left" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="89" Connection="Join" />
-      <Destination ToolID="94" Connection="Input" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="90" Connection="Output" />
-      <Destination ToolID="92" Connection="Left" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="91" Connection="Output" />
-      <Destination ToolID="92" Connection="Right" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="92" Connection="Join" />
-      <Destination ToolID="95" Connection="Input" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="94" Connection="Output" />
-      <Destination ToolID="100" Connection="Input" />
-    </Connection>
-    <Connection name="#1">
-      <Origin ToolID="95" Connection="Output" />
-      <Destination ToolID="101" Connection="Input" />
-    </Connection>
-    <Connection name="#2">
-      <Origin ToolID="100" Connection="Output" />
-      <Destination ToolID="101" Connection="Input" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="98" Connection="Output" />
-      <Destination ToolID="27" Connection="Input" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="102" Connection="Join" />
-      <Destination ToolID="98" Connection="Input" />
+      <Origin ToolID="138" Connection="Output" />
+      <Destination ToolID="139" Connection="Input" />
     </Connection>
   </Connections>
   <Properties>
