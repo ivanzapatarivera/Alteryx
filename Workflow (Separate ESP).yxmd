@@ -3,12 +3,12 @@
   <Nodes>
     <Node ToolID="105">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-        <Position x="42" y="114" />
+        <Position x="54" y="114" />
       </GuiSettings>
       <Properties>
         <Configuration>
           <Passwords />
-          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`Products`</File>
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\falen\Desktop\TEKSystems\Homeworks\Alteryx\Alteryx\capstone_data.xlsx|||`Products`</File>
           <FormatSpecificOptions>
             <FirstRowData>False</FirstRowData>
             <ImportLine>1</ImportLine>
@@ -16,7 +16,7 @@
         </Configuration>
         <Annotation DisplayMode="0">
           <Name />
-          <DefaultAnnotationText>capstone_data_complete (1).xlsx
+          <DefaultAnnotationText>capstone_data.xlsx
 Query=`Products`</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
@@ -25,21 +25,21 @@ Query=`Products`</DefaultAnnotationText>
         </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
-            <Field name="PROD_CODE" size="255" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`Products`" type="V_String" />
-            <Field name="PROD_NAME" size="255" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`Products`" type="V_String" />
-            <Field name="URL" size="255" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`Products`" type="V_String" />
-            <Field name="link" size="255" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`Products`" type="V_String" />
-            <Field name="Manufacturer" size="255" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`Products`" type="V_String" />
-            <Field name="Extended Service Plan" size="255" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`Products`" type="V_String" />
-            <Field name="Warranty Price" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`Products`" type="Double" />
-            <Field name="2019Q1" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`Products`" type="Double" />
-            <Field name="2019Q2" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`Products`" type="Double" />
-            <Field name="2019Q3" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`Products`" type="Double" />
-            <Field name="2019Q4" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`Products`" type="Double" />
-            <Field name="2020Q1" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`Products`" type="Double" />
-            <Field name="2020Q2" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`Products`" type="Double" />
-            <Field name="2020Q3" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`Products`" type="Double" />
-            <Field name="2020Q4" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`Products`" type="Double" />
+            <Field name="PROD_CODE" size="255" source="File: C:\Users\falen\Desktop\TEKSystems\Homeworks\Alteryx\Alteryx\capstone_data.xlsx|||`Products`" type="V_String" />
+            <Field name="PROD_NAME" size="255" source="File: C:\Users\falen\Desktop\TEKSystems\Homeworks\Alteryx\Alteryx\capstone_data.xlsx|||`Products`" type="V_String" />
+            <Field name="URL" size="255" source="File: C:\Users\falen\Desktop\TEKSystems\Homeworks\Alteryx\Alteryx\capstone_data.xlsx|||`Products`" type="V_String" />
+            <Field name="link" size="255" source="File: C:\Users\falen\Desktop\TEKSystems\Homeworks\Alteryx\Alteryx\capstone_data.xlsx|||`Products`" type="V_String" />
+            <Field name="Manufacturer" size="255" source="File: C:\Users\falen\Desktop\TEKSystems\Homeworks\Alteryx\Alteryx\capstone_data.xlsx|||`Products`" type="V_String" />
+            <Field name="Extended Service Plan" size="255" source="File: C:\Users\falen\Desktop\TEKSystems\Homeworks\Alteryx\Alteryx\capstone_data.xlsx|||`Products`" type="V_String" />
+            <Field name="Warranty Price" source="File: C:\Users\falen\Desktop\TEKSystems\Homeworks\Alteryx\Alteryx\capstone_data.xlsx|||`Products`" type="Double" />
+            <Field name="2019Q1" source="File: C:\Users\falen\Desktop\TEKSystems\Homeworks\Alteryx\Alteryx\capstone_data.xlsx|||`Products`" type="Double" />
+            <Field name="2019Q2" source="File: C:\Users\falen\Desktop\TEKSystems\Homeworks\Alteryx\Alteryx\capstone_data.xlsx|||`Products`" type="Double" />
+            <Field name="2019Q3" source="File: C:\Users\falen\Desktop\TEKSystems\Homeworks\Alteryx\Alteryx\capstone_data.xlsx|||`Products`" type="Double" />
+            <Field name="2019Q4" source="File: C:\Users\falen\Desktop\TEKSystems\Homeworks\Alteryx\Alteryx\capstone_data.xlsx|||`Products`" type="Double" />
+            <Field name="2020Q1" source="File: C:\Users\falen\Desktop\TEKSystems\Homeworks\Alteryx\Alteryx\capstone_data.xlsx|||`Products`" type="Double" />
+            <Field name="2020Q2" source="File: C:\Users\falen\Desktop\TEKSystems\Homeworks\Alteryx\Alteryx\capstone_data.xlsx|||`Products`" type="Double" />
+            <Field name="2020Q3" source="File: C:\Users\falen\Desktop\TEKSystems\Homeworks\Alteryx\Alteryx\capstone_data.xlsx|||`Products`" type="Double" />
+            <Field name="2020Q4" source="File: C:\Users\falen\Desktop\TEKSystems\Homeworks\Alteryx\Alteryx\capstone_data.xlsx|||`Products`" type="Double" />
           </RecordInfo>
         </MetaInfo>
       </Properties>
@@ -47,7 +47,7 @@ Query=`Products`</DefaultAnnotationText>
     </Node>
     <Node ToolID="107">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Transpose.Transpose">
-        <Position x="126" y="114" />
+        <Position x="138" y="114" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -86,12 +86,12 @@ Query=`Products`</DefaultAnnotationText>
     </Node>
     <Node ToolID="108">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-        <Position x="42" y="294" />
+        <Position x="54" y="294" />
       </GuiSettings>
       <Properties>
         <Configuration>
           <Passwords />
-          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`Products`</File>
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\falen\Desktop\TEKSystems\Homeworks\Alteryx\Alteryx\capstone_data.xlsx|||`Products`</File>
           <FormatSpecificOptions>
             <FirstRowData>False</FirstRowData>
             <ImportLine>1</ImportLine>
@@ -99,27 +99,30 @@ Query=`Products`</DefaultAnnotationText>
         </Configuration>
         <Annotation DisplayMode="0">
           <Name />
-          <DefaultAnnotationText>capstone_data_complete (1).xlsx
+          <DefaultAnnotationText>capstone_data.xlsx
 Query=`Products`</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
-            <Field name="PROD_CODE" size="255" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`Products`" type="V_String" />
-            <Field name="PROD_NAME" size="255" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`Products`" type="V_String" />
-            <Field name="URL" size="255" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`Products`" type="V_String" />
-            <Field name="link" size="255" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`Products`" type="V_String" />
-            <Field name="Manufacturer" size="255" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`Products`" type="V_String" />
-            <Field name="Extended Service Plan" size="255" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`Products`" type="V_String" />
-            <Field name="Warranty Price" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`Products`" type="Double" />
-            <Field name="2019Q1" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`Products`" type="Double" />
-            <Field name="2019Q2" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`Products`" type="Double" />
-            <Field name="2019Q3" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`Products`" type="Double" />
-            <Field name="2019Q4" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`Products`" type="Double" />
-            <Field name="2020Q1" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`Products`" type="Double" />
-            <Field name="2020Q2" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`Products`" type="Double" />
-            <Field name="2020Q3" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`Products`" type="Double" />
-            <Field name="2020Q4" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`Products`" type="Double" />
+            <Field name="PROD_CODE" size="255" source="File: C:\Users\falen\Desktop\TEKSystems\Homeworks\Alteryx\Alteryx\capstone_data.xlsx|||`Products`" type="V_String" />
+            <Field name="PROD_NAME" size="255" source="File: C:\Users\falen\Desktop\TEKSystems\Homeworks\Alteryx\Alteryx\capstone_data.xlsx|||`Products`" type="V_String" />
+            <Field name="URL" size="255" source="File: C:\Users\falen\Desktop\TEKSystems\Homeworks\Alteryx\Alteryx\capstone_data.xlsx|||`Products`" type="V_String" />
+            <Field name="link" size="255" source="File: C:\Users\falen\Desktop\TEKSystems\Homeworks\Alteryx\Alteryx\capstone_data.xlsx|||`Products`" type="V_String" />
+            <Field name="Manufacturer" size="255" source="File: C:\Users\falen\Desktop\TEKSystems\Homeworks\Alteryx\Alteryx\capstone_data.xlsx|||`Products`" type="V_String" />
+            <Field name="Extended Service Plan" size="255" source="File: C:\Users\falen\Desktop\TEKSystems\Homeworks\Alteryx\Alteryx\capstone_data.xlsx|||`Products`" type="V_String" />
+            <Field name="Warranty Price" source="File: C:\Users\falen\Desktop\TEKSystems\Homeworks\Alteryx\Alteryx\capstone_data.xlsx|||`Products`" type="Double" />
+            <Field name="2019Q1" source="File: C:\Users\falen\Desktop\TEKSystems\Homeworks\Alteryx\Alteryx\capstone_data.xlsx|||`Products`" type="Double" />
+            <Field name="2019Q2" source="File: C:\Users\falen\Desktop\TEKSystems\Homeworks\Alteryx\Alteryx\capstone_data.xlsx|||`Products`" type="Double" />
+            <Field name="2019Q3" source="File: C:\Users\falen\Desktop\TEKSystems\Homeworks\Alteryx\Alteryx\capstone_data.xlsx|||`Products`" type="Double" />
+            <Field name="2019Q4" source="File: C:\Users\falen\Desktop\TEKSystems\Homeworks\Alteryx\Alteryx\capstone_data.xlsx|||`Products`" type="Double" />
+            <Field name="2020Q1" source="File: C:\Users\falen\Desktop\TEKSystems\Homeworks\Alteryx\Alteryx\capstone_data.xlsx|||`Products`" type="Double" />
+            <Field name="2020Q2" source="File: C:\Users\falen\Desktop\TEKSystems\Homeworks\Alteryx\Alteryx\capstone_data.xlsx|||`Products`" type="Double" />
+            <Field name="2020Q3" source="File: C:\Users\falen\Desktop\TEKSystems\Homeworks\Alteryx\Alteryx\capstone_data.xlsx|||`Products`" type="Double" />
+            <Field name="2020Q4" source="File: C:\Users\falen\Desktop\TEKSystems\Homeworks\Alteryx\Alteryx\capstone_data.xlsx|||`Products`" type="Double" />
           </RecordInfo>
         </MetaInfo>
       </Properties>
@@ -127,7 +130,7 @@ Query=`Products`</DefaultAnnotationText>
     </Node>
     <Node ToolID="109">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Transpose.Transpose">
-        <Position x="126" y="294" />
+        <Position x="138" y="294" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -164,7 +167,7 @@ Query=`Products`</DefaultAnnotationText>
     </Node>
     <Node ToolID="110">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="294" y="114" />
+        <Position x="306" y="114" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -189,7 +192,7 @@ Query=`Products`</DefaultAnnotationText>
     </Node>
     <Node ToolID="111">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="294" y="294" />
+        <Position x="306" y="294" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -212,12 +215,12 @@ Query=`Products`</DefaultAnnotationText>
     </Node>
     <Node ToolID="112">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-        <Position x="42" y="174" />
+        <Position x="54" y="174" />
       </GuiSettings>
       <Properties>
         <Configuration>
           <Passwords />
-          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`WeeklySales`</File>
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\falen\Desktop\TEKSystems\Homeworks\Alteryx\Alteryx\capstone_data.xlsx|||`WeeklySales`</File>
           <FormatSpecificOptions>
             <FirstRowData>False</FirstRowData>
             <ImportLine>1</ImportLine>
@@ -225,7 +228,7 @@ Query=`Products`</DefaultAnnotationText>
         </Configuration>
         <Annotation DisplayMode="0">
           <Name />
-          <DefaultAnnotationText>capstone_data_complete (1).xlsx
+          <DefaultAnnotationText>capstone_data.xlsx
 Query=`WeeklySales`</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
@@ -234,62 +237,62 @@ Query=`WeeklySales`</DefaultAnnotationText>
         </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
-            <Field name="Index" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`WeeklySales`" type="Double" />
-            <Field name="ITEM_CODE" size="255" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`WeeklySales`" type="V_String" />
-            <Field name="EMP_ID" size="255" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`WeeklySales`" type="V_String" />
-            <Field name="Year" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`WeeklySales`" type="Double" />
-            <Field name="W0" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`WeeklySales`" type="Double" />
-            <Field name="W1" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`WeeklySales`" type="Double" />
-            <Field name="W2" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`WeeklySales`" type="Double" />
-            <Field name="W3" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`WeeklySales`" type="Double" />
-            <Field name="W4" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`WeeklySales`" type="Double" />
-            <Field name="W5" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`WeeklySales`" type="Double" />
-            <Field name="W6" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`WeeklySales`" type="Double" />
-            <Field name="W7" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`WeeklySales`" type="Double" />
-            <Field name="W8" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`WeeklySales`" type="Double" />
-            <Field name="W9" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`WeeklySales`" type="Double" />
-            <Field name="W10" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`WeeklySales`" type="Double" />
-            <Field name="W11" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`WeeklySales`" type="Double" />
-            <Field name="W12" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`WeeklySales`" type="Double" />
-            <Field name="W13" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`WeeklySales`" type="Double" />
-            <Field name="W14" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`WeeklySales`" type="Double" />
-            <Field name="W15" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`WeeklySales`" type="Double" />
-            <Field name="W16" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`WeeklySales`" type="Double" />
-            <Field name="W17" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`WeeklySales`" type="Double" />
-            <Field name="W18" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`WeeklySales`" type="Double" />
-            <Field name="W19" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`WeeklySales`" type="Double" />
-            <Field name="W20" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`WeeklySales`" type="Double" />
-            <Field name="W21" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`WeeklySales`" type="Double" />
-            <Field name="W22" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`WeeklySales`" type="Double" />
-            <Field name="W23" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`WeeklySales`" type="Double" />
-            <Field name="W24" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`WeeklySales`" type="Double" />
-            <Field name="W25" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`WeeklySales`" type="Double" />
-            <Field name="W26" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`WeeklySales`" type="Double" />
-            <Field name="W27" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`WeeklySales`" type="Double" />
-            <Field name="W28" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`WeeklySales`" type="Double" />
-            <Field name="W29" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`WeeklySales`" type="Double" />
-            <Field name="W30" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`WeeklySales`" type="Double" />
-            <Field name="W31" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`WeeklySales`" type="Double" />
-            <Field name="W32" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`WeeklySales`" type="Double" />
-            <Field name="W33" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`WeeklySales`" type="Double" />
-            <Field name="W34" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`WeeklySales`" type="Double" />
-            <Field name="W35" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`WeeklySales`" type="Double" />
-            <Field name="W36" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`WeeklySales`" type="Double" />
-            <Field name="W37" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`WeeklySales`" type="Double" />
-            <Field name="W38" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`WeeklySales`" type="Double" />
-            <Field name="W39" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`WeeklySales`" type="Double" />
-            <Field name="W40" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`WeeklySales`" type="Double" />
-            <Field name="W41" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`WeeklySales`" type="Double" />
-            <Field name="W42" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`WeeklySales`" type="Double" />
-            <Field name="W43" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`WeeklySales`" type="Double" />
-            <Field name="W44" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`WeeklySales`" type="Double" />
-            <Field name="W45" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`WeeklySales`" type="Double" />
-            <Field name="W46" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`WeeklySales`" type="Double" />
-            <Field name="W47" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`WeeklySales`" type="Double" />
-            <Field name="W48" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`WeeklySales`" type="Double" />
-            <Field name="W49" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`WeeklySales`" type="Double" />
-            <Field name="W50" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`WeeklySales`" type="Double" />
-            <Field name="W51" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`WeeklySales`" type="Double" />
+            <Field name="Index" source="File: C:\Users\falen\Desktop\TEKSystems\Homeworks\Alteryx\Alteryx\capstone_data.xlsx|||`WeeklySales`" type="Double" />
+            <Field name="ITEM_CODE" size="255" source="File: C:\Users\falen\Desktop\TEKSystems\Homeworks\Alteryx\Alteryx\capstone_data.xlsx|||`WeeklySales`" type="V_String" />
+            <Field name="EMP_ID" size="255" source="File: C:\Users\falen\Desktop\TEKSystems\Homeworks\Alteryx\Alteryx\capstone_data.xlsx|||`WeeklySales`" type="V_String" />
+            <Field name="Year" source="File: C:\Users\falen\Desktop\TEKSystems\Homeworks\Alteryx\Alteryx\capstone_data.xlsx|||`WeeklySales`" type="Double" />
+            <Field name="W0" source="File: C:\Users\falen\Desktop\TEKSystems\Homeworks\Alteryx\Alteryx\capstone_data.xlsx|||`WeeklySales`" type="Double" />
+            <Field name="W1" source="File: C:\Users\falen\Desktop\TEKSystems\Homeworks\Alteryx\Alteryx\capstone_data.xlsx|||`WeeklySales`" type="Double" />
+            <Field name="W2" source="File: C:\Users\falen\Desktop\TEKSystems\Homeworks\Alteryx\Alteryx\capstone_data.xlsx|||`WeeklySales`" type="Double" />
+            <Field name="W3" source="File: C:\Users\falen\Desktop\TEKSystems\Homeworks\Alteryx\Alteryx\capstone_data.xlsx|||`WeeklySales`" type="Double" />
+            <Field name="W4" source="File: C:\Users\falen\Desktop\TEKSystems\Homeworks\Alteryx\Alteryx\capstone_data.xlsx|||`WeeklySales`" type="Double" />
+            <Field name="W5" source="File: C:\Users\falen\Desktop\TEKSystems\Homeworks\Alteryx\Alteryx\capstone_data.xlsx|||`WeeklySales`" type="Double" />
+            <Field name="W6" source="File: C:\Users\falen\Desktop\TEKSystems\Homeworks\Alteryx\Alteryx\capstone_data.xlsx|||`WeeklySales`" type="Double" />
+            <Field name="W7" source="File: C:\Users\falen\Desktop\TEKSystems\Homeworks\Alteryx\Alteryx\capstone_data.xlsx|||`WeeklySales`" type="Double" />
+            <Field name="W8" source="File: C:\Users\falen\Desktop\TEKSystems\Homeworks\Alteryx\Alteryx\capstone_data.xlsx|||`WeeklySales`" type="Double" />
+            <Field name="W9" source="File: C:\Users\falen\Desktop\TEKSystems\Homeworks\Alteryx\Alteryx\capstone_data.xlsx|||`WeeklySales`" type="Double" />
+            <Field name="W10" source="File: C:\Users\falen\Desktop\TEKSystems\Homeworks\Alteryx\Alteryx\capstone_data.xlsx|||`WeeklySales`" type="Double" />
+            <Field name="W11" source="File: C:\Users\falen\Desktop\TEKSystems\Homeworks\Alteryx\Alteryx\capstone_data.xlsx|||`WeeklySales`" type="Double" />
+            <Field name="W12" source="File: C:\Users\falen\Desktop\TEKSystems\Homeworks\Alteryx\Alteryx\capstone_data.xlsx|||`WeeklySales`" type="Double" />
+            <Field name="W13" source="File: C:\Users\falen\Desktop\TEKSystems\Homeworks\Alteryx\Alteryx\capstone_data.xlsx|||`WeeklySales`" type="Double" />
+            <Field name="W14" source="File: C:\Users\falen\Desktop\TEKSystems\Homeworks\Alteryx\Alteryx\capstone_data.xlsx|||`WeeklySales`" type="Double" />
+            <Field name="W15" source="File: C:\Users\falen\Desktop\TEKSystems\Homeworks\Alteryx\Alteryx\capstone_data.xlsx|||`WeeklySales`" type="Double" />
+            <Field name="W16" source="File: C:\Users\falen\Desktop\TEKSystems\Homeworks\Alteryx\Alteryx\capstone_data.xlsx|||`WeeklySales`" type="Double" />
+            <Field name="W17" source="File: C:\Users\falen\Desktop\TEKSystems\Homeworks\Alteryx\Alteryx\capstone_data.xlsx|||`WeeklySales`" type="Double" />
+            <Field name="W18" source="File: C:\Users\falen\Desktop\TEKSystems\Homeworks\Alteryx\Alteryx\capstone_data.xlsx|||`WeeklySales`" type="Double" />
+            <Field name="W19" source="File: C:\Users\falen\Desktop\TEKSystems\Homeworks\Alteryx\Alteryx\capstone_data.xlsx|||`WeeklySales`" type="Double" />
+            <Field name="W20" source="File: C:\Users\falen\Desktop\TEKSystems\Homeworks\Alteryx\Alteryx\capstone_data.xlsx|||`WeeklySales`" type="Double" />
+            <Field name="W21" source="File: C:\Users\falen\Desktop\TEKSystems\Homeworks\Alteryx\Alteryx\capstone_data.xlsx|||`WeeklySales`" type="Double" />
+            <Field name="W22" source="File: C:\Users\falen\Desktop\TEKSystems\Homeworks\Alteryx\Alteryx\capstone_data.xlsx|||`WeeklySales`" type="Double" />
+            <Field name="W23" source="File: C:\Users\falen\Desktop\TEKSystems\Homeworks\Alteryx\Alteryx\capstone_data.xlsx|||`WeeklySales`" type="Double" />
+            <Field name="W24" source="File: C:\Users\falen\Desktop\TEKSystems\Homeworks\Alteryx\Alteryx\capstone_data.xlsx|||`WeeklySales`" type="Double" />
+            <Field name="W25" source="File: C:\Users\falen\Desktop\TEKSystems\Homeworks\Alteryx\Alteryx\capstone_data.xlsx|||`WeeklySales`" type="Double" />
+            <Field name="W26" source="File: C:\Users\falen\Desktop\TEKSystems\Homeworks\Alteryx\Alteryx\capstone_data.xlsx|||`WeeklySales`" type="Double" />
+            <Field name="W27" source="File: C:\Users\falen\Desktop\TEKSystems\Homeworks\Alteryx\Alteryx\capstone_data.xlsx|||`WeeklySales`" type="Double" />
+            <Field name="W28" source="File: C:\Users\falen\Desktop\TEKSystems\Homeworks\Alteryx\Alteryx\capstone_data.xlsx|||`WeeklySales`" type="Double" />
+            <Field name="W29" source="File: C:\Users\falen\Desktop\TEKSystems\Homeworks\Alteryx\Alteryx\capstone_data.xlsx|||`WeeklySales`" type="Double" />
+            <Field name="W30" source="File: C:\Users\falen\Desktop\TEKSystems\Homeworks\Alteryx\Alteryx\capstone_data.xlsx|||`WeeklySales`" type="Double" />
+            <Field name="W31" source="File: C:\Users\falen\Desktop\TEKSystems\Homeworks\Alteryx\Alteryx\capstone_data.xlsx|||`WeeklySales`" type="Double" />
+            <Field name="W32" source="File: C:\Users\falen\Desktop\TEKSystems\Homeworks\Alteryx\Alteryx\capstone_data.xlsx|||`WeeklySales`" type="Double" />
+            <Field name="W33" source="File: C:\Users\falen\Desktop\TEKSystems\Homeworks\Alteryx\Alteryx\capstone_data.xlsx|||`WeeklySales`" type="Double" />
+            <Field name="W34" source="File: C:\Users\falen\Desktop\TEKSystems\Homeworks\Alteryx\Alteryx\capstone_data.xlsx|||`WeeklySales`" type="Double" />
+            <Field name="W35" source="File: C:\Users\falen\Desktop\TEKSystems\Homeworks\Alteryx\Alteryx\capstone_data.xlsx|||`WeeklySales`" type="Double" />
+            <Field name="W36" source="File: C:\Users\falen\Desktop\TEKSystems\Homeworks\Alteryx\Alteryx\capstone_data.xlsx|||`WeeklySales`" type="Double" />
+            <Field name="W37" source="File: C:\Users\falen\Desktop\TEKSystems\Homeworks\Alteryx\Alteryx\capstone_data.xlsx|||`WeeklySales`" type="Double" />
+            <Field name="W38" source="File: C:\Users\falen\Desktop\TEKSystems\Homeworks\Alteryx\Alteryx\capstone_data.xlsx|||`WeeklySales`" type="Double" />
+            <Field name="W39" source="File: C:\Users\falen\Desktop\TEKSystems\Homeworks\Alteryx\Alteryx\capstone_data.xlsx|||`WeeklySales`" type="Double" />
+            <Field name="W40" source="File: C:\Users\falen\Desktop\TEKSystems\Homeworks\Alteryx\Alteryx\capstone_data.xlsx|||`WeeklySales`" type="Double" />
+            <Field name="W41" source="File: C:\Users\falen\Desktop\TEKSystems\Homeworks\Alteryx\Alteryx\capstone_data.xlsx|||`WeeklySales`" type="Double" />
+            <Field name="W42" source="File: C:\Users\falen\Desktop\TEKSystems\Homeworks\Alteryx\Alteryx\capstone_data.xlsx|||`WeeklySales`" type="Double" />
+            <Field name="W43" source="File: C:\Users\falen\Desktop\TEKSystems\Homeworks\Alteryx\Alteryx\capstone_data.xlsx|||`WeeklySales`" type="Double" />
+            <Field name="W44" source="File: C:\Users\falen\Desktop\TEKSystems\Homeworks\Alteryx\Alteryx\capstone_data.xlsx|||`WeeklySales`" type="Double" />
+            <Field name="W45" source="File: C:\Users\falen\Desktop\TEKSystems\Homeworks\Alteryx\Alteryx\capstone_data.xlsx|||`WeeklySales`" type="Double" />
+            <Field name="W46" source="File: C:\Users\falen\Desktop\TEKSystems\Homeworks\Alteryx\Alteryx\capstone_data.xlsx|||`WeeklySales`" type="Double" />
+            <Field name="W47" source="File: C:\Users\falen\Desktop\TEKSystems\Homeworks\Alteryx\Alteryx\capstone_data.xlsx|||`WeeklySales`" type="Double" />
+            <Field name="W48" source="File: C:\Users\falen\Desktop\TEKSystems\Homeworks\Alteryx\Alteryx\capstone_data.xlsx|||`WeeklySales`" type="Double" />
+            <Field name="W49" source="File: C:\Users\falen\Desktop\TEKSystems\Homeworks\Alteryx\Alteryx\capstone_data.xlsx|||`WeeklySales`" type="Double" />
+            <Field name="W50" source="File: C:\Users\falen\Desktop\TEKSystems\Homeworks\Alteryx\Alteryx\capstone_data.xlsx|||`WeeklySales`" type="Double" />
+            <Field name="W51" source="File: C:\Users\falen\Desktop\TEKSystems\Homeworks\Alteryx\Alteryx\capstone_data.xlsx|||`WeeklySales`" type="Double" />
           </RecordInfo>
         </MetaInfo>
       </Properties>
@@ -297,7 +300,7 @@ Query=`WeeklySales`</DefaultAnnotationText>
     </Node>
     <Node ToolID="113">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Transpose.Transpose">
-        <Position x="126" y="174" />
+        <Position x="138" y="174" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -377,7 +380,7 @@ Query=`WeeklySales`</DefaultAnnotationText>
     </Node>
     <Node ToolID="114">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="294" y="174" />
+        <Position x="306" y="174" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -400,12 +403,12 @@ Query=`WeeklySales`</DefaultAnnotationText>
     </Node>
     <Node ToolID="117">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-        <Position x="42" y="54" />
+        <Position x="54" y="54" />
       </GuiSettings>
       <Properties>
         <Configuration>
           <Passwords />
-          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`WeeksPeriods`</File>
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\falen\Desktop\TEKSystems\Homeworks\Alteryx\Alteryx\capstone_data.xlsx|||`WeeksPeriods`</File>
           <FormatSpecificOptions>
             <FirstRowData>False</FirstRowData>
             <ImportLine>1</ImportLine>
@@ -413,7 +416,7 @@ Query=`WeeklySales`</DefaultAnnotationText>
         </Configuration>
         <Annotation DisplayMode="0">
           <Name />
-          <DefaultAnnotationText>capstone_data_complete (1).xlsx
+          <DefaultAnnotationText>capstone_data.xlsx
 Query=`WeeksPeriods`</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
@@ -422,12 +425,12 @@ Query=`WeeksPeriods`</DefaultAnnotationText>
         </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
-            <Field name="Week0+" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`WeeksPeriods`" type="Double" />
-            <Field name="Week1+" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`WeeksPeriods`" type="Double" />
-            <Field name="Date" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`WeeksPeriods`" type="Date" />
-            <Field name="Sales Period" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`WeeksPeriods`" type="Double" />
-            <Field name="Sales Year" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`WeeksPeriods`" type="Double" />
-            <Field name="Quarter" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`WeeksPeriods`" type="Double" />
+            <Field name="Week0+" source="File: C:\Users\falen\Desktop\TEKSystems\Homeworks\Alteryx\Alteryx\capstone_data.xlsx|||`WeeksPeriods`" type="Double" />
+            <Field name="Week1+" source="File: C:\Users\falen\Desktop\TEKSystems\Homeworks\Alteryx\Alteryx\capstone_data.xlsx|||`WeeksPeriods`" type="Double" />
+            <Field name="Date" source="File: C:\Users\falen\Desktop\TEKSystems\Homeworks\Alteryx\Alteryx\capstone_data.xlsx|||`WeeksPeriods`" type="Date" />
+            <Field name="Sales Period" source="File: C:\Users\falen\Desktop\TEKSystems\Homeworks\Alteryx\Alteryx\capstone_data.xlsx|||`WeeksPeriods`" type="Double" />
+            <Field name="Sales Year" source="File: C:\Users\falen\Desktop\TEKSystems\Homeworks\Alteryx\Alteryx\capstone_data.xlsx|||`WeeksPeriods`" type="Double" />
+            <Field name="Quarter" source="File: C:\Users\falen\Desktop\TEKSystems\Homeworks\Alteryx\Alteryx\capstone_data.xlsx|||`WeeksPeriods`" type="Double" />
           </RecordInfo>
         </MetaInfo>
       </Properties>
@@ -435,7 +438,7 @@ Query=`WeeksPeriods`</DefaultAnnotationText>
     </Node>
     <Node ToolID="118">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="126" y="54" />
+        <Position x="138" y="54" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -460,7 +463,7 @@ Period = [Ye...</DefaultAnnotationText>
     </Node>
     <Node ToolID="119">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="294" y="54" />
+        <Position x="306" y="54" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -482,7 +485,7 @@ Period = [Ye...</DefaultAnnotationText>
     </Node>
     <Node ToolID="121">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-        <Position x="378" y="66" />
+        <Position x="390" y="66" />
       </GuiSettings>
       <Properties>
         <Configuration joinByRecordPos="False">
@@ -513,7 +516,7 @@ Period = [Ye...</DefaultAnnotationText>
     </Node>
     <Node ToolID="127">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-        <Position x="378" y="222" />
+        <Position x="390" y="222" />
       </GuiSettings>
       <Properties>
         <Configuration joinByRecordPos="False">
@@ -543,7 +546,7 @@ Period = [Ye...</DefaultAnnotationText>
     </Node>
     <Node ToolID="128">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-        <Position x="462" y="78" />
+        <Position x="474" y="78" />
       </GuiSettings>
       <Properties>
         <Configuration joinByRecordPos="False">
@@ -578,7 +581,7 @@ Period = [Ye...</DefaultAnnotationText>
     </Node>
     <Node ToolID="132">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-        <Position x="558" y="174" />
+        <Position x="570" y="174" />
       </GuiSettings>
       <Properties>
         <Configuration joinByRecordPos="False">
@@ -624,12 +627,12 @@ Period = [Ye...</DefaultAnnotationText>
     </Node>
     <Node ToolID="133">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-        <Position x="42" y="234" />
+        <Position x="54" y="234" />
       </GuiSettings>
       <Properties>
         <Configuration>
           <Passwords />
-          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`Sales_Team_Lead`</File>
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\falen\Desktop\TEKSystems\Homeworks\Alteryx\Alteryx\capstone_data.xlsx|||`Sales_Team_Lead`</File>
           <FormatSpecificOptions>
             <FirstRowData>False</FirstRowData>
             <ImportLine>1</ImportLine>
@@ -637,7 +640,7 @@ Period = [Ye...</DefaultAnnotationText>
         </Configuration>
         <Annotation DisplayMode="0">
           <Name />
-          <DefaultAnnotationText>capstone_data_complete (1).xlsx
+          <DefaultAnnotationText>capstone_data.xlsx
 Query=`Sales_Team_Lead`</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
@@ -646,10 +649,10 @@ Query=`Sales_Team_Lead`</DefaultAnnotationText>
         </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
-            <Field name="Sales Team Lead" size="255" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`Sales_Team_Lead`" type="V_String" />
-            <Field name="PayGrade" size="255" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`Sales_Team_Lead`" type="V_String" />
-            <Field name="Region" size="255" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`Sales_Team_Lead`" type="V_String" />
-            <Field name="EmpID" size="255" source="File: C:\Users\falen\Desktop\TEKSystems\Capstone\capstone_data_complete (1).xlsx|||`Sales_Team_Lead`" type="V_String" />
+            <Field name="Sales Team Lead" size="255" source="File: C:\Users\falen\Desktop\TEKSystems\Homeworks\Alteryx\Alteryx\capstone_data.xlsx|||`Sales_Team_Lead`" type="V_String" />
+            <Field name="PayGrade" size="255" source="File: C:\Users\falen\Desktop\TEKSystems\Homeworks\Alteryx\Alteryx\capstone_data.xlsx|||`Sales_Team_Lead`" type="V_String" />
+            <Field name="Region" size="255" source="File: C:\Users\falen\Desktop\TEKSystems\Homeworks\Alteryx\Alteryx\capstone_data.xlsx|||`Sales_Team_Lead`" type="V_String" />
+            <Field name="EmpID" size="255" source="File: C:\Users\falen\Desktop\TEKSystems\Homeworks\Alteryx\Alteryx\capstone_data.xlsx|||`Sales_Team_Lead`" type="V_String" />
           </RecordInfo>
         </MetaInfo>
       </Properties>
@@ -657,7 +660,7 @@ Query=`Sales_Team_Lead`</DefaultAnnotationText>
     </Node>
     <Node ToolID="134">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-        <Position x="210" y="222" />
+        <Position x="222" y="222" />
       </GuiSettings>
       <Properties>
         <Configuration joinByRecordPos="False">
@@ -687,7 +690,7 @@ Query=`Sales_Team_Lead`</DefaultAnnotationText>
     </Node>
     <Node ToolID="135">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="810" y="174" />
+        <Position x="822" y="174" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -750,7 +753,7 @@ Query=`Sales_Team_Lead`</DefaultAnnotationText>
     </Node>
     <Node ToolID="136">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="642" y="174" />
+        <Position x="654" y="174" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -771,7 +774,7 @@ ESP Total $ = [Right_Qty] * [Price]
     </Node>
     <Node ToolID="137">
       <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
-        <Position x="726" y="174" />
+        <Position x="738" y="174" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -792,7 +795,7 @@ ESP Total $ = [Right_Qty] * [Price]
     </Node>
     <Node ToolID="138">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
-        <Position x="894" y="174" />
+        <Position x="906" y="174" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -814,9 +817,24 @@ PROD Code - Ascending</DefaultAnnotationText>
     </Node>
     <Node ToolID="139">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="978" y="174" />
+        <Position x="990" y="174" />
       </GuiSettings>
       <Properties>
+        <Configuration>
+          <TempFile>C:\Users\falen\AppData\Local\Temp\Engine_524_ca418847095042c294325076c4fd5de4_\Engine_18264_2bf433955bb64b33bf16616d0eb5c715_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
         <Annotation DisplayMode="0">
           <Name />
           <DefaultAnnotationText />
@@ -938,7 +956,7 @@ PROD Code - Ascending</DefaultAnnotationText>
     <LayoutType>Horizontal</LayoutType>
     <MetaInfo>
       <NameIsFileName value="True" />
-      <Name>Worflow (Separate ESP)</Name>
+      <Name>Workflow (Separate ESP)</Name>
       <Description />
       <RootToolName />
       <ToolVersion />
