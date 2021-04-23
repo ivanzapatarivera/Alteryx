@@ -3,7 +3,7 @@
   <Nodes>
     <Node ToolID="1">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-        <Position x="54" y="114" />
+        <Position x="54" y="162" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -20,9 +20,6 @@
 Query=`WeeklySales`</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name="Index" source="File: D:\TEKSystems\Homeworks\Alteryx\Alteryx\capstone_data.xlsx|||`WeeklySales`" type="Double" />
@@ -88,7 +85,7 @@ Query=`WeeklySales`</DefaultAnnotationText>
     </Node>
     <Node ToolID="8">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Transpose.Transpose">
-        <Position x="174" y="114" />
+        <Position x="174" y="162" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -168,7 +165,7 @@ Query=`WeeklySales`</DefaultAnnotationText>
     </Node>
     <Node ToolID="22">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-        <Position x="54" y="54" />
+        <Position x="54" y="102" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -185,9 +182,6 @@ Query=`WeeklySales`</DefaultAnnotationText>
 Query=`ProductPrices`</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name="PROD_CODE" size="255" source="File: D:\TEKSystems\Homeworks\Alteryx\Alteryx\capstone_data.xlsx|||`ProductPrices`" type="V_String" />
@@ -212,7 +206,7 @@ Query=`ProductPrices`</DefaultAnnotationText>
     </Node>
     <Node ToolID="27">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="2478" y="126" />
+        <Position x="2478" y="174" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -232,7 +226,7 @@ Sales Quarter = ToString([Sales Year]) + 'Q' + ToString(...</DefaultAnnotationTe
     </Node>
     <Node ToolID="28">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-        <Position x="54" y="174" />
+        <Position x="54" y="222" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -249,9 +243,6 @@ Sales Quarter = ToString([Sales Year]) + 'Q' + ToString(...</DefaultAnnotationTe
 Query=`WeeksPeriods`</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name="Week0+" source="File: D:\TEKSystems\Homeworks\Alteryx\Alteryx\capstone_data.xlsx|||`WeeksPeriods`" type="Double" />
@@ -267,7 +258,7 @@ Query=`WeeksPeriods`</DefaultAnnotationText>
     </Node>
     <Node ToolID="32">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="294" y="174" />
+        <Position x="294" y="222" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -291,7 +282,7 @@ Period = ToString([S...</DefaultAnnotationText>
     </Node>
     <Node ToolID="46">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-        <Position x="2814" y="138" />
+        <Position x="2814" y="186" />
       </GuiSettings>
       <Properties>
         <Configuration joinByRecordPos="False">
@@ -322,7 +313,7 @@ Period = ToString([S...</DefaultAnnotationText>
     </Node>
     <Node ToolID="48">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-        <Position x="2646" y="186" />
+        <Position x="2646" y="234" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -352,7 +343,7 @@ Query=`Sales_Team_Lead`</DefaultAnnotationText>
     </Node>
     <Node ToolID="51">
       <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
-        <Position x="2982" y="138" />
+        <Position x="2982" y="186" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -373,7 +364,7 @@ Query=`Sales_Team_Lead`</DefaultAnnotationText>
     </Node>
     <Node ToolID="52">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="3102" y="138" />
+        <Position x="3102" y="186" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -427,7 +418,7 @@ Query=`Sales_Team_Lead`</DefaultAnnotationText>
     </Node>
     <Node ToolID="53">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
-        <Position x="3222" y="138" />
+        <Position x="3222" y="186" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -447,7 +438,7 @@ W# - Ascending</DefaultAnnotationText>
     </Node>
     <Node ToolID="57">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="450" y="54" />
+        <Position x="450" y="102" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -482,7 +473,7 @@ W# - Ascending</DefaultAnnotationText>
     </Node>
     <Node ToolID="49">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="3342" y="138" />
+        <Position x="3342" y="186" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -510,7 +501,7 @@ W# - Ascending</DefaultAnnotationText>
     </Node>
     <Node ToolID="60">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-        <Position x="54" y="234" />
+        <Position x="54" y="282" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -527,9 +518,6 @@ W# - Ascending</DefaultAnnotationText>
 Query=`ProductPrices`</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name="PROD_CODE" size="255" source="File: D:\TEKSystems\Homeworks\Alteryx\Alteryx\capstone_data.xlsx|||`ProductPrices`" type="V_String" />
@@ -554,7 +542,7 @@ Query=`ProductPrices`</DefaultAnnotationText>
     </Node>
     <Node ToolID="61">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Transpose.Transpose">
-        <Position x="174" y="234" />
+        <Position x="174" y="282" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -592,7 +580,7 @@ Query=`ProductPrices`</DefaultAnnotationText>
     </Node>
     <Node ToolID="68">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="450" y="234" />
+        <Position x="450" y="282" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -617,7 +605,7 @@ Query=`ProductPrices`</DefaultAnnotationText>
     </Node>
     <Node ToolID="75">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-        <Position x="690" y="222" />
+        <Position x="690" y="270" />
       </GuiSettings>
       <Properties>
         <Configuration joinByRecordPos="False">
@@ -648,7 +636,7 @@ Query=`ProductPrices`</DefaultAnnotationText>
     </Node>
     <Node ToolID="79">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
-        <Position x="858" y="234" />
+        <Position x="858" y="282" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -668,7 +656,7 @@ Right_Period - Ascending</DefaultAnnotationText>
     </Node>
     <Node ToolID="80">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="1014" y="234" />
+        <Position x="1014" y="282" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -697,7 +685,7 @@ Right_Period - Ascending</DefaultAnnotationText>
     </Node>
     <Node ToolID="84">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="450" y="114" />
+        <Position x="450" y="162" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -718,7 +706,7 @@ Right_Period - Ascending</DefaultAnnotationText>
     </Node>
     <Node ToolID="86">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
-        <Position x="1806" y="114" />
+        <Position x="1806" y="162" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -737,7 +725,7 @@ Right_Period - Ascending</DefaultAnnotationText>
     </Node>
     <Node ToolID="87">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="450" y="174" />
+        <Position x="450" y="222" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -761,7 +749,7 @@ Right_Period - Ascending</DefaultAnnotationText>
     </Node>
     <Node ToolID="88">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="1242" y="174" />
+        <Position x="1242" y="222" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -783,7 +771,7 @@ Year = Lef...</DefaultAnnotationText>
     </Node>
     <Node ToolID="89">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-        <Position x="690" y="54" />
+        <Position x="690" y="102" />
       </GuiSettings>
       <Properties>
         <Configuration joinByRecordPos="False">
@@ -814,7 +802,7 @@ Year = Lef...</DefaultAnnotationText>
     </Node>
     <Node ToolID="90">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="1242" y="114" />
+        <Position x="1242" y="162" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -833,7 +821,7 @@ Year = Lef...</DefaultAnnotationText>
     </Node>
     <Node ToolID="91">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="1242" y="234" />
+        <Position x="1242" y="282" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -852,7 +840,7 @@ Year = Lef...</DefaultAnnotationText>
     </Node>
     <Node ToolID="92">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-        <Position x="1434" y="222" />
+        <Position x="1434" y="270" />
       </GuiSettings>
       <Properties>
         <Configuration joinByRecordPos="False">
@@ -888,7 +876,7 @@ Year = Lef...</DefaultAnnotationText>
     </Node>
     <Node ToolID="94">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="1242" y="54" />
+        <Position x="1242" y="102" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -907,7 +895,7 @@ Year = Lef...</DefaultAnnotationText>
     </Node>
     <Node ToolID="95">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="1626" y="222" />
+        <Position x="1626" y="270" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -939,7 +927,7 @@ Year = Lef...</DefaultAnnotationText>
     </Node>
     <Node ToolID="96">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="1974" y="114" />
+        <Position x="1974" y="162" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -961,7 +949,7 @@ Year = Lef...</DefaultAnnotationText>
     </Node>
     <Node ToolID="97">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-        <Position x="2142" y="126" />
+        <Position x="2142" y="174" />
       </GuiSettings>
       <Properties>
         <Configuration joinByRecordPos="False">
@@ -1008,7 +996,7 @@ Year = Lef...</DefaultAnnotationText>
     </Node>
     <Node ToolID="98">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="2310" y="126" />
+        <Position x="2310" y="174" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1041,7 +1029,7 @@ Year = Lef...</DefaultAnnotationText>
     </Node>
     <Node ToolID="99">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="2646" y="126" />
+        <Position x="2646" y="174" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1076,7 +1064,7 @@ Year = Lef...</DefaultAnnotationText>
     </Node>
     <Node ToolID="100">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="150" y="90" width="108" height="40" />
+        <Position x="150" y="138" width="108" height="40" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1096,7 +1084,7 @@ Year = Lef...</DefaultAnnotationText>
     </Node>
     <Node ToolID="101">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="150" y="210" width="108" height="40" />
+        <Position x="150" y="258" width="108" height="40" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1116,7 +1104,7 @@ Year = Lef...</DefaultAnnotationText>
     </Node>
     <Node ToolID="102">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="270" y="150" width="108" height="40" />
+        <Position x="270" y="198" width="108" height="40" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1136,7 +1124,7 @@ Year = Lef...</DefaultAnnotationText>
     </Node>
     <Node ToolID="103">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="426" y="18" width="108" height="40" />
+        <Position x="426" y="66" width="108" height="40" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1156,7 +1144,7 @@ Year = Lef...</DefaultAnnotationText>
     </Node>
     <Node ToolID="104">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="666" y="6" width="108" height="52" />
+        <Position x="666" y="54" width="108" height="52" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1176,7 +1164,7 @@ Year = Lef...</DefaultAnnotationText>
     </Node>
     <Node ToolID="105">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="666" y="282" width="108" height="60" />
+        <Position x="666" y="330" width="108" height="60" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1196,7 +1184,7 @@ Year = Lef...</DefaultAnnotationText>
     </Node>
     <Node ToolID="106">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="834" y="294" width="108" height="40" />
+        <Position x="834" y="342" width="108" height="40" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1216,7 +1204,7 @@ Year = Lef...</DefaultAnnotationText>
     </Node>
     <Node ToolID="107">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="990" y="294" width="108" height="40" />
+        <Position x="990" y="342" width="108" height="40" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1236,7 +1224,7 @@ Year = Lef...</DefaultAnnotationText>
     </Node>
     <Node ToolID="108">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="1134" y="222" width="108" height="40" />
+        <Position x="1134" y="270" width="108" height="40" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1256,7 +1244,7 @@ Year = Lef...</DefaultAnnotationText>
     </Node>
     <Node ToolID="109">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="1134" y="162" width="108" height="40" />
+        <Position x="1134" y="210" width="108" height="40" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1276,7 +1264,7 @@ Year = Lef...</DefaultAnnotationText>
     </Node>
     <Node ToolID="110">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="1134" y="102" width="108" height="40" />
+        <Position x="1134" y="150" width="108" height="40" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1296,7 +1284,7 @@ Year = Lef...</DefaultAnnotationText>
     </Node>
     <Node ToolID="111">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="1134" y="42" width="108" height="40" />
+        <Position x="1134" y="90" width="108" height="40" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1316,7 +1304,7 @@ Year = Lef...</DefaultAnnotationText>
     </Node>
     <Node ToolID="112">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="1410" y="282" width="108" height="40" />
+        <Position x="1410" y="330" width="108" height="40" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1336,7 +1324,7 @@ Year = Lef...</DefaultAnnotationText>
     </Node>
     <Node ToolID="113">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="1602" y="282" width="108" height="40" />
+        <Position x="1602" y="330" width="108" height="40" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1356,7 +1344,7 @@ Year = Lef...</DefaultAnnotationText>
     </Node>
     <Node ToolID="114">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="1782" y="78" width="108" height="40" />
+        <Position x="1782" y="126" width="108" height="40" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1376,7 +1364,7 @@ Year = Lef...</DefaultAnnotationText>
     </Node>
     <Node ToolID="115">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="2286" y="90" width="108" height="40" />
+        <Position x="2286" y="138" width="108" height="40" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1396,7 +1384,7 @@ Year = Lef...</DefaultAnnotationText>
     </Node>
     <Node ToolID="116">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="2118" y="78" width="108" height="40" />
+        <Position x="2118" y="126" width="108" height="40" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1416,7 +1404,7 @@ Year = Lef...</DefaultAnnotationText>
     </Node>
     <Node ToolID="117">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="1950" y="78" width="108" height="40" />
+        <Position x="1950" y="126" width="108" height="40" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1436,7 +1424,7 @@ Year = Lef...</DefaultAnnotationText>
     </Node>
     <Node ToolID="118">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="2454" y="90" width="108" height="40" />
+        <Position x="2454" y="138" width="108" height="40" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1456,7 +1444,7 @@ Year = Lef...</DefaultAnnotationText>
     </Node>
     <Node ToolID="119">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="2622" y="90" width="108" height="40" />
+        <Position x="2622" y="138" width="108" height="40" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1476,7 +1464,7 @@ Year = Lef...</DefaultAnnotationText>
     </Node>
     <Node ToolID="120">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="2790" y="90" width="108" height="40" />
+        <Position x="2790" y="138" width="108" height="40" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1496,7 +1484,7 @@ Year = Lef...</DefaultAnnotationText>
     </Node>
     <Node ToolID="121">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="2958" y="198" width="108" height="40" />
+        <Position x="2958" y="246" width="108" height="40" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1516,7 +1504,7 @@ Year = Lef...</DefaultAnnotationText>
     </Node>
     <Node ToolID="122">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="3078" y="90" width="108" height="40" />
+        <Position x="3078" y="138" width="108" height="40" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1536,7 +1524,7 @@ Year = Lef...</DefaultAnnotationText>
     </Node>
     <Node ToolID="123">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="3198" y="198" width="108" height="40" />
+        <Position x="3198" y="246" width="108" height="40" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1556,7 +1544,7 @@ Year = Lef...</DefaultAnnotationText>
     </Node>
     <Node ToolID="124">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="3414" y="150" width="108" height="40" />
+        <Position x="3414" y="198" width="108" height="40" />
       </GuiSettings>
       <Properties>
         <Configuration>
