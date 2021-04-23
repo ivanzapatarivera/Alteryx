@@ -39,7 +39,7 @@ Before running file hw4_ZapataRivera.yxmg, verify that the following files are l
 * Workflow.bak
 * Workflow (Separated ESP).bak
 
-Inside this repository, there is also a file named hw_ZapataRivera.docx that has the description of the advantanges Alteryx presents on data processing and auditability and traceability. Note that a .docx reader is required to open the file.  To run, enter the following command on your favorite CLI terminal:
+Inside this repository, there is also a file named hw_ZapataRivera.docx that has the description of the advantanges Alteryx presents on data processing and auditability and traceability. Note that a .docx reader is required to open the file.  To run, enter the following command on your favorite CLI/terminal:
 
     start hw_ZapataRivera.docx 
 
