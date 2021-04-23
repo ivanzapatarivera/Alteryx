@@ -165,54 +165,6 @@ Query=`Products`</DefaultAnnotationText>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTranspose" />
     </Node>
-    <Node ToolID="110">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="378" y="114" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <OrderChanged value="False" />
-          <CommaDecimal value="False" />
-          <SelectFields>
-            <SelectField field="PROD_CODE" selected="True" rename="PROD Code" />
-            <SelectField field="Manufacturer" selected="True" />
-            <SelectField field="Extended Service Plan" selected="True" />
-            <SelectField field="Name" selected="True" rename="Period" />
-            <SelectField field="Value" selected="True" rename="PROD Price" />
-            <SelectField field="*Unknown" selected="False" />
-          </SelectFields>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText />
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
-    </Node>
-    <Node ToolID="111">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="378" y="294" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <OrderChanged value="False" />
-          <CommaDecimal value="False" />
-          <SelectFields>
-            <SelectField field="Extended Service Plan" selected="True" rename="ESP Code" />
-            <SelectField field="Name" selected="False" />
-            <SelectField field="Value" selected="True" rename="Price" />
-            <SelectField field="*Unknown" selected="True" />
-          </SelectFields>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText />
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
-    </Node>
     <Node ToolID="112">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
         <Position x="54" y="174" />
@@ -378,29 +330,6 @@ Query=`WeeklySales`</DefaultAnnotationText>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTranspose" />
     </Node>
-    <Node ToolID="114">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="378" y="174" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <OrderChanged value="False" />
-          <CommaDecimal value="False" />
-          <SelectFields>
-            <SelectField field="ITEM_CODE" selected="True" rename="ITEM Code" />
-            <SelectField field="Name" selected="True" rename="W#" />
-            <SelectField field="Value" selected="True" rename="Qty" />
-            <SelectField field="*Unknown" selected="True" />
-          </SelectFields>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText />
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
-    </Node>
     <Node ToolID="117">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
         <Position x="54" y="54" />
@@ -461,28 +390,6 @@ Period = [Ye...</DefaultAnnotationText>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
     </Node>
-    <Node ToolID="119">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="378" y="54" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <OrderChanged value="False" />
-          <CommaDecimal value="False" />
-          <SelectFields>
-            <SelectField field="Year Str" selected="False" />
-            <SelectField field="Quarter Str" selected="False" />
-            <SelectField field="*Unknown" selected="True" />
-          </SelectFields>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText />
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
-    </Node>
     <Node ToolID="121">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
         <Position x="594" y="66" />
@@ -516,7 +423,7 @@ Period = [Ye...</DefaultAnnotationText>
     </Node>
     <Node ToolID="127">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-        <Position x="774" y="222" />
+        <Position x="774" y="234" />
       </GuiSettings>
       <Properties>
         <Configuration joinByRecordPos="False">
@@ -660,7 +567,7 @@ Query=`Sales_Team_Lead`</DefaultAnnotationText>
     </Node>
     <Node ToolID="134">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-        <Position x="222" y="222" />
+        <Position x="270" y="222" />
       </GuiSettings>
       <Properties>
         <Configuration joinByRecordPos="False">
@@ -821,7 +728,7 @@ PROD Code - Ascending</DefaultAnnotationText>
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\falen\AppData\Local\Temp\Engine_17836_ae9faf2f26f746e8ad9bdcf17ed4f7cb_\Engine_11996_f381efef41074a5eb5c7d60b6b6133cd_.yxdb</TempFile>
+          <TempFile>C:\Users\falen\AppData\Local\Temp\Engine_11344_64ba954f31984448af93c76337e64c4a_\Engine_11996_a8dac7f4926842efa714f54ecd2cfa09_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -885,7 +792,7 @@ PROD Code - Ascending</DefaultAnnotationText>
     </Node>
     <Node ToolID="142">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="210" y="174" width="100" height="52" />
+        <Position x="246" y="174" width="100" height="52" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -905,7 +812,7 @@ PROD Code - Ascending</DefaultAnnotationText>
     </Node>
     <Node ToolID="143">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="354" y="18" width="100" height="40" />
+        <Position x="390" y="18" width="100" height="40" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1103,6 +1010,99 @@ PROD Code - Ascending</DefaultAnnotationText>
         </Annotation>
       </Properties>
     </Node>
+    <Node ToolID="111">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="414" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Extended Service Plan" selected="True" rename="ESP Code" />
+            <SelectField field="Name" selected="False" />
+            <SelectField field="Value" selected="True" rename="Price" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="110">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="414" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="PROD_CODE" selected="True" rename="PROD Code" />
+            <SelectField field="Manufacturer" selected="True" />
+            <SelectField field="Extended Service Plan" selected="True" />
+            <SelectField field="Name" selected="True" rename="Period" />
+            <SelectField field="Value" selected="True" rename="PROD Price" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="119">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="414" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Year Str" selected="False" />
+            <SelectField field="Quarter Str" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="114">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="414" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="ITEM_CODE" selected="True" rename="ITEM Code" />
+            <SelectField field="Name" selected="True" rename="W#" />
+            <SelectField field="Value" selected="True" rename="Qty" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
   </Nodes>
   <Connections>
     <Connection>
@@ -1122,22 +1122,6 @@ PROD Code - Ascending</DefaultAnnotationText>
       <Destination ToolID="111" Connection="Input" />
     </Connection>
     <Connection>
-      <Origin ToolID="110" Connection="Output" />
-      <Destination ToolID="121" Connection="Right" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="119" Connection="Output" />
-      <Destination ToolID="121" Connection="Left" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="111" Connection="Output" />
-      <Destination ToolID="127" Connection="Right" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="114" Connection="Output" />
-      <Destination ToolID="127" Connection="Left" />
-    </Connection>
-    <Connection>
       <Origin ToolID="112" Connection="Output" />
       <Destination ToolID="113" Connection="Input" />
     </Connection>
@@ -1150,20 +1134,20 @@ PROD Code - Ascending</DefaultAnnotationText>
       <Destination ToolID="134" Connection="Right" />
     </Connection>
     <Connection>
-      <Origin ToolID="114" Connection="Output" />
-      <Destination ToolID="128" Connection="Right" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="121" Connection="Join" />
-      <Destination ToolID="128" Connection="Left" />
-    </Connection>
-    <Connection>
       <Origin ToolID="117" Connection="Output" />
       <Destination ToolID="118" Connection="Input" />
     </Connection>
     <Connection>
       <Origin ToolID="118" Connection="Output" />
       <Destination ToolID="119" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="121" Connection="Join" />
+      <Destination ToolID="128" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="114" Connection="Output" />
+      <Destination ToolID="128" Connection="Right" />
     </Connection>
     <Connection>
       <Origin ToolID="127" Connection="Join" />
@@ -1196,6 +1180,22 @@ PROD Code - Ascending</DefaultAnnotationText>
     <Connection>
       <Origin ToolID="138" Connection="Output" />
       <Destination ToolID="139" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="111" Connection="Output" />
+      <Destination ToolID="127" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="114" Connection="Output" />
+      <Destination ToolID="127" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="110" Connection="Output" />
+      <Destination ToolID="121" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="119" Connection="Output" />
+      <Destination ToolID="121" Connection="Left" />
     </Connection>
   </Connections>
   <Properties>
