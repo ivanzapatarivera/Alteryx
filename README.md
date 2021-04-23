@@ -23,7 +23,11 @@ Both workflows are designed using Alteryx Designer. It may be available to be do
 
 ## Installation
 
-After installing Alteryx Designer is completed, is important that you download the capstone_one.xlsx worksheet and place it on the same folder where this repository has been cloned. 
+After installing Alteryx Designer is completed, is important that you clone this repository.  The preferred method is using your favorite CLI/terminal and entering the following:
+
+    git clone git@github.com:ivanzapatarivera/Alteryx.git
+
+Make sure the following file is downloaded, capstone_one.xlsx worksheet and it's placed inside the same folder where this repository has been cloned. 
 
 To open the workflow, you need to do so by opening the file titled hw4_ZapataRivera.yxwg. This will allow you to open the following workflows:
 
